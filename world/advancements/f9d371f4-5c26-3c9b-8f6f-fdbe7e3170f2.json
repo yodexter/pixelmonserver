@@ -1,0 +1,819 @@
+{
+  "pixelmon:recipes/machines/healer": {
+    "criteria": {
+      "has_aluminium_plate": "2019-04-07 00:23:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_concrete_powder": {
+    "criteria": {
+      "has_sand": "2019-04-07 00:07:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2019-04-06 22:53:44 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wooden_slab": {
+    "criteria": {
+      "has_planks": "2019-04-07 01:50:32 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decorative/purple_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2019-04-07 01:35:34 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/green_vending_machine": {
+    "criteria": {
+      "has_the_recipe": "2019-04-07 01:35:34 -0300",
+      "has_fresh_water": "2019-04-07 01:35:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+    "criteria": {
+      "has_sand": "2019-04-07 00:07:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2019-04-07 01:53:52 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_concrete_powder": {
+    "criteria": {
+      "has_sand": "2019-04-07 00:07:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2019-04-07 00:09:57 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_planks": "2019-04-07 01:50:32 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2019-04-07 02:49:46 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:types/capture_type_trigger": {
+    "criteria": {
+      "capture_any": "2019-04-06 22:03:16 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decorative/red_vending_machine": {
+    "criteria": {
+      "has_the_recipe": "2019-04-07 01:35:34 -0300",
+      "has_fresh_water": "2019-04-07 01:35:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapdoor": {
+    "criteria": {
+      "has_planks": "2019-04-07 01:50:32 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2019-04-06 23:56:32 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_concrete_powder": {
+    "criteria": {
+      "has_sand": "2019-04-07 00:07:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_at_least_9_iron_ingot": "2019-04-07 01:07:28 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:wild_battle_victories/wild_battle_victory_trigger": {
+    "criteria": {
+      "wild_battle_victory_trigger": "2019-04-06 21:56:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_pressure_plate": {
+    "criteria": {
+      "has_planks": "2019-04-07 01:50:32 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2019-04-07 01:53:52 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2019-04-06 22:05:03 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2019-04-07 01:50:32 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sign": {
+    "criteria": {
+      "has_planks": "2019-04-07 01:50:32 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2019-04-06 21:55:33 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2019-04-07 01:53:52 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2019-04-06 22:05:03 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_button": {
+    "criteria": {
+      "has_planks": "2019-04-07 01:50:32 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decorative/brown_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2019-04-07 01:35:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_log": "2019-04-07 01:51:02 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_concrete_powder": {
+    "criteria": {
+      "has_sand": "2019-04-07 00:07:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_concrete_powder": {
+    "criteria": {
+      "has_sand": "2019-04-07 00:07:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2019-04-06 22:53:44 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decorative/yellow_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2019-04-07 01:35:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fence": {
+    "criteria": {
+      "has_planks": "2019-04-07 01:50:32 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_beef": "2019-04-06 22:06:20 -0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2019-04-06 22:05:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2019-04-06 22:54:37 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/trade_machine": {
+    "criteria": {
+      "has_left_holder": "2019-04-07 00:32:50 -0300",
+      "has_right_holder": "2019-04-07 00:32:50 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:pokedex/pokedex_trigger": {
+    "criteria": {
+      "pokedex_base": "2019-04-06 21:54:36 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_block": {
+    "criteria": {
+      "has_the_recipe": "2019-04-07 01:07:28 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/anvil": {
+    "criteria": {
+      "has_iron": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_concrete_powder": {
+    "criteria": {
+      "has_sand": "2019-04-07 00:07:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2019-04-07 00:11:42 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decorative/orange_vending_machine": {
+    "criteria": {
+      "has_the_recipe": "2019-04-07 01:35:34 -0300",
+      "has_fresh_water": "2019-04-07 01:35:34 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decorative/blue_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2019-04-07 01:35:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/fence_gate": {
+    "criteria": {
+      "has_planks": "2019-04-07 01:50:32 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2019-04-07 01:51:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2019-04-06 23:52:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+    "criteria": {
+      "has_sand": "2019-04-07 00:07:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+    "criteria": {
+      "has_sand": "2019-04-07 00:07:18 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decorative/pink_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2019-04-07 01:35:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2019-04-07 00:11:42 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decorative/green_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2019-04-07 01:35:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2019-04-07 00:09:57 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/noteblock": {
+    "criteria": {
+      "has_redstone": "2019-04-06 23:52:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+    "criteria": {
+      "has_sand": "2019-04-07 00:07:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_concrete_powder": {
+    "criteria": {
+      "has_sand": "2019-04-07 00:07:18 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:balls/dive_ball_capture": {
+    "criteria": {
+      "dive_ball_capture": "2019-04-07 01:55:11 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2019-04-07 00:09:57 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2019-04-06 23:52:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_concrete_powder": {
+    "criteria": {
+      "has_sand": "2019-04-07 00:07:18 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decorative/black_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2019-04-07 01:35:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/fossil_cleaner": {
+    "criteria": {
+      "has_aluminium_plate": "2019-04-07 00:23:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2019-04-07 00:11:42 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2019-04-07 01:53:52 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decorative/gray_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2019-04-07 01:35:34 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:balls/ultra_ball_capture": {
+    "criteria": {
+      "ultra_ball_capture": "2019-04-06 22:06:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_double_plant": "2019-04-06 22:30:41 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "ice_flats": "2019-04-07 01:32:55 -0300",
+      "frozen_river": "2019-04-07 01:34:21 -0300",
+      "taiga_cold_hills": "2019-04-07 01:34:04 -0300",
+      "forest": "2019-04-06 21:55:33 -0300",
+      "birch_forest": "2019-04-06 22:24:57 -0300",
+      "swampland": "2019-04-06 22:33:45 -0300",
+      "deep_ocean": "2019-04-06 22:28:19 -0300",
+      "beaches": "2019-04-06 22:26:45 -0300",
+      "extreme_hills_with_trees": "2019-04-06 22:17:57 -0300",
+      "desert_hills": "2019-04-06 23:40:23 -0300",
+      "forest_hills": "2019-04-06 21:59:26 -0300",
+      "plains": "2019-04-06 22:22:53 -0300",
+      "savanna": "2019-04-06 23:41:15 -0300",
+      "ice_mountains": "2019-04-07 01:33:00 -0300",
+      "taiga": "2019-04-06 22:41:35 -0300",
+      "taiga_hills": "2019-04-06 22:44:45 -0300",
+      "birch_forest_hills": "2019-04-06 22:25:11 -0300",
+      "taiga_cold": "2019-04-07 01:33:50 -0300",
+      "ocean": "2019-04-06 22:27:08 -0300",
+      "extreme_hills": "2019-04-06 21:54:28 -0300",
+      "roofed_forest": "2019-04-06 22:40:11 -0300",
+      "cold_beach": "2019-04-07 01:32:53 -0300",
+      "river": "2019-04-06 21:55:22 -0300",
+      "desert": "2019-04-06 23:40:26 -0300",
+      "stone_beach": "2019-04-06 23:14:06 -0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2019-04-07 01:53:52 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2019-04-07 00:07:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2019-04-07 01:42:33 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/red_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2019-04-07 01:35:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2019-04-06 22:06:20 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2019-04-06 23:52:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2019-04-06 21:55:33 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2019-04-07 01:50:32 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_concrete_powder": {
+    "criteria": {
+      "has_sand": "2019-04-07 00:07:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2019-04-07 00:11:42 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2019-04-06 21:55:33 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:balls/dusk_ball_capture": {
+    "criteria": {
+      "dusk_ball_capture": "2019-04-06 23:05:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:wild_battle_victories/wild_battle_victory_50": {
+    "criteria": {
+      "wild_battle_victory_50": "2019-04-07 01:56:09 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2019-04-06 21:55:33 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2019-04-07 00:09:57 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2019-04-06 21:55:33 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decorative/cyan_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2019-04-07 01:35:34 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:balls/quick_ball_capture": {
+    "criteria": {
+      "quick_ball_capture": "2019-04-06 22:03:16 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_concrete_powder": {
+    "criteria": {
+      "has_sand": "2019-04-07 00:07:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2019-04-07 00:09:57 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2019-04-06 23:52:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2019-04-06 21:55:33 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2019-04-07 01:53:52 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2019-04-07 01:53:52 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/pc": {
+    "criteria": {
+      "has_aluminium_plate": "2019-04-07 00:23:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2019-04-06 22:05:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2019-04-07 01:53:52 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2019-04-06 23:52:50 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/mechanical_anvil": {
+    "criteria": {
+      "has_furnace": "2019-04-07 00:11:56 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/yellow_vending_machine": {
+    "criteria": {
+      "has_the_recipe": "2019-04-07 01:35:34 -0300",
+      "has_fresh_water": "2019-04-07 01:35:34 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decorative/white_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2019-04-07 01:35:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glass_pane": {
+    "criteria": {
+      "has_the_recipe": "2019-04-07 01:44:48 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2019-04-07 01:53:52 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2019-04-07 01:53:52 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/blue_vending_machine": {
+    "criteria": {
+      "has_the_recipe": "2019-04-07 01:35:34 -0300",
+      "has_fresh_water": "2019-04-07 01:35:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2019-04-07 01:53:52 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2019-04-07 00:08:10 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/pink_vending_machine": {
+    "criteria": {
+      "has_the_recipe": "2019-04-07 01:35:34 -0300",
+      "has_fresh_water": "2019-04-07 01:35:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_door": {
+    "criteria": {
+      "has_planks": "2019-04-07 01:50:32 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_concrete_powder": {
+    "criteria": {
+      "has_sand": "2019-04-07 00:07:18 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/orange_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2019-04-07 01:35:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_concrete_powder": {
+    "criteria": {
+      "has_sand": "2019-04-07 00:07:18 -0300"
+    },
+    "done": true
+  }
+}
