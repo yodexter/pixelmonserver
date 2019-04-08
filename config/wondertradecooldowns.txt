@@ -3,4 +3,6 @@
 //Failure to correctly follow this format will cause all the cooldowns listed afterwards to be skipped. I recommend using /wtsetcooldown instead.
 //Be careful, friend. Love, Hiroku.
 
+fcb4bb01-21cc-3ac0-b815-9fd2a5285e32:30
+f9d371f4-5c26-3c9b-8f6f-fdbe7e3170f2:30
 2120447d-bb7a-49f3-83a0-aad8d4f2b7c5:0
