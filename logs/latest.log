@@ -1,72 +1,74 @@
-[11:40:06] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[11:40:06] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[11:40:06] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[11:40:06] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2825 for Minecraft 1.12.2 loading
-[11:40:06] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_201, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_201
-[11:40:06] [main/INFO] [FML]: Searching C:\Users\ANDRE\Documents\GitHub\pixelmonserver\.\mods for mods
-[11:40:06] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12.2-2768-7.1.5.jar
-[11:40:06] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[11:40:06] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[11:40:06] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/C:/Users/ANDRE/Documents/GitHub/pixelmonserver/./mods/spongeforge-1.12.2-2768-7.1.5.jar Service=LaunchWrapper Env=SERVER
-[11:40:06] [main/WARN] [FML]: The coremod SpongeCoremod (org.spongepowered.mod.SpongeCoremod) is not signed!
-[11:40:06] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[11:40:06] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[DEFAULT]
-[11:40:06] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[PREINIT]
-[11:40:06] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[INIT]
-[11:40:06] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[11:40:06] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[11:40:06] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[11:40:06] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[11:40:08] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[11:40:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[11:40:08] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[11:40:08] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@41f35f7c
-[11:40:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[11:40:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[11:40:08] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[11:40:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[11:40:08] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[11:40:13] [main/WARN] [mixin]: Static binding violation: PRIVATE overwrite method initializeConnectionToPlayer in mixins.common.core.json:server.MixinPlayerList cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[11:40:13] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[11:40:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[11:40:17] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2825 Initialized
-[11:40:17] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[11:40:17] [Server thread/INFO] [FML]: Replaced 1036 ore ingredients
-[11:40:18] [Server thread/INFO] [Sponge]: Found mcmod.info at jar:file:/C:/Users/ANDRE/Documents/GitHub/pixelmonserver/./mods/spongeforge-1.12.2-2768-7.1.5.jar!/mcmod.info
-[11:40:18] [Server thread/INFO] [Sponge]: Creating injector in stage 'PRODUCTION'
-[11:40:21] [Server thread/INFO] [FML]: Searching C:\Users\ANDRE\Documents\GitHub\pixelmonserver\.\mods for mods
-[11:40:22] [Server thread/INFO] [FML]: Forge Mod Loader has identified 15 mods to load
-[11:40:22] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[11:40:22] [Server thread/WARN] [FML]: Missing English translation for spongeapi: assets/spongeapi/lang/en_us.lang
-[11:40:22] [Server thread/WARN] [FML]: Missing English translation for spongeforge: assets/spongeforge/lang/en_us.lang
-[11:40:22] [Server thread/WARN] [FML]: Missing English translation for economylite: assets/economylite/lang/en_us.lang
-[11:40:22] [Server thread/WARN] [FML]: Missing English translation for pixelextras: assets/pixelextras/lang/en_us.lang
-[11:40:22] [Server thread/WARN] [FML]: Missing English translation for pokedexrewards: assets/pokedexrewards/lang/en_us.lang
-[11:40:22] [Server thread/WARN] [FML]: Missing English translation for totaleconomy: assets/totaleconomy/lang/en_us.lang
-[11:40:22] [Server thread/WARN] [FML]: Missing English translation for wondertrade: assets/wondertrade/lang/en_us.lang
-[11:40:22] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, economylite, jei, journeymap, pixelextras, pixelmon, pokedexrewards, totaleconomy, wondertrade] at CLIENT
-[11:40:22] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, economylite, jei, journeymap, pixelextras, pixelmon, pokedexrewards, totaleconomy, wondertrade] at SERVER
-[11:40:22] [Server thread/WARN] [Sponge]: There's no certificate fingerprint available
-[11:40:23] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[11:40:23] [Server thread/INFO] [FML]: Found 1169 ObjectHolder annotations
-[11:40:23] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[11:40:23] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[11:40:23] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[11:40:23] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
-[11:40:23] [Server thread/INFO] [economylite]: EconomyLite 2.15.1 is initializing!
-[11:40:23] [Server thread/INFO] [economylite]: Using currency: Coin
-[11:40:23] [Server thread/INFO] [economylite]: The SQL module is disabled!
-[11:40:23] [Server thread/INFO] [economylite]: The Loan module is disabled!
-[11:40:23] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
-[11:40:24] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
-[11:40:24] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: UP_TO_DATE Target: null
-[11:40:24] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[11:40:24] [Server thread/ERROR] [Sponge]: Could not pass FMLPreInitializationEvent to Plugin{id=totaleconomy, name=Total Economy, version=1.8.1, description=All in one economy plugin for Minecraft/Sponge, source=.\mods\TotalEconomy-1.8.1.jar}
+[14:15:00] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[14:15:00] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[14:15:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[14:15:00] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2825 for Minecraft 1.12.2 loading
+[14:15:00] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_201, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_201
+[14:15:00] [main/INFO] [FML]: Searching C:\Users\ANDRE\Documents\GitHub\pixelmonserver\.\mods for mods
+[14:15:00] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12.2-2768-7.1.5.jar
+[14:15:00] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:15:00] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[14:15:00] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/C:/Users/ANDRE/Documents/GitHub/pixelmonserver/./mods/spongeforge-1.12.2-2768-7.1.5.jar Service=LaunchWrapper Env=SERVER
+[14:15:00] [main/WARN] [FML]: The coremod SpongeCoremod (org.spongepowered.mod.SpongeCoremod) is not signed!
+[14:15:00] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[14:15:00] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[DEFAULT]
+[14:15:00] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[PREINIT]
+[14:15:00] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[INIT]
+[14:15:00] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:15:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:15:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:15:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:15:02] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[14:15:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:15:02] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[14:15:02] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@42c2f48c
+[14:15:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:15:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:15:03] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[14:15:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:15:03] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[14:15:08] [main/WARN] [mixin]: Static binding violation: PRIVATE overwrite method initializeConnectionToPlayer in mixins.common.core.json:server.MixinPlayerList cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[14:15:08] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[14:15:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[14:15:13] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2825 Initialized
+[14:15:13] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[14:15:13] [Server thread/INFO] [FML]: Replaced 1036 ore ingredients
+[14:15:13] [Server thread/INFO] [Sponge]: Found mcmod.info at jar:file:/C:/Users/ANDRE/Documents/GitHub/pixelmonserver/./mods/spongeforge-1.12.2-2768-7.1.5.jar!/mcmod.info
+[14:15:13] [Server thread/INFO] [Sponge]: Creating injector in stage 'PRODUCTION'
+[14:15:17] [Server thread/INFO] [FML]: Searching C:\Users\ANDRE\Documents\GitHub\pixelmonserver\.\mods for mods
+[14:15:18] [Server thread/INFO] [FML]: Forge Mod Loader has identified 15 mods to load
+[14:15:18] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[14:15:18] [Server thread/WARN] [FML]: Missing English translation for spongeapi: assets/spongeapi/lang/en_us.lang
+[14:15:18] [Server thread/WARN] [FML]: Missing English translation for spongeforge: assets/spongeforge/lang/en_us.lang
+[14:15:18] [Server thread/WARN] [FML]: Missing English translation for economylite: assets/economylite/lang/en_us.lang
+[14:15:18] [Server thread/WARN] [FML]: Missing English translation for pixelextras: assets/pixelextras/lang/en_us.lang
+[14:15:18] [Server thread/WARN] [FML]: Missing English translation for pokedexrewards: assets/pokedexrewards/lang/en_us.lang
+[14:15:18] [Server thread/WARN] [FML]: Missing English translation for totaleconomy: assets/totaleconomy/lang/en_us.lang
+[14:15:18] [Server thread/WARN] [FML]: Missing English translation for wondertrade: assets/wondertrade/lang/en_us.lang
+[14:15:19] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, economylite, jei, journeymap, pixelextras, pixelmon, pokedexrewards, totaleconomy, wondertrade] at CLIENT
+[14:15:19] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, economylite, jei, journeymap, pixelextras, pixelmon, pokedexrewards, totaleconomy, wondertrade] at SERVER
+[14:15:19] [Server thread/WARN] [Sponge]: There's no certificate fingerprint available
+[14:15:20] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[14:15:20] [Server thread/INFO] [FML]: Found 1169 ObjectHolder annotations
+[14:15:20] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[14:15:20] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[14:15:20] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[14:15:20] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
+[14:15:21] [Server thread/INFO] [economylite]: EconomyLite 2.15.1 is initializing!
+[14:15:21] [Server thread/INFO] [economylite]: Using currency: Coin
+[14:15:21] [Server thread/INFO] [economylite]: The SQL module is disabled!
+[14:15:21] [Server thread/INFO] [economylite]: The Loan module is disabled!
+[14:15:21] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+[14:15:21] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: UP_TO_DATE Target: null
+[14:15:21] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Starting version check at https://files.minecraftforge.net/maven/org/spongepowered/spongeforge/promotions_slim.json
+[14:15:22] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+[14:15:22] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Found status: OUTDATED Target: 7.1.2
+[14:15:22] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[14:15:22] [Server thread/ERROR] [Sponge]: Could not pass FMLPreInitializationEvent to Plugin{id=totaleconomy, name=Total Economy, version=1.8.1, description=All in one economy plugin for Minecraft/Sponge, source=.\mods\TotalEconomy-1.8.1.jar}
 org.spongepowered.api.registry.RegistryModuleAlreadyRegisteredException: Already registered a registry module!
 	at org.spongepowered.common.registry.SpongeGameRegistry.registerModule(SpongeGameRegistry.java:229) ~[SpongeGameRegistry.class:1.12.2-2768-7.1.5]
 	at org.spongepowered.common.registry.SpongeGameRegistry.registerModule(SpongeGameRegistry.java:134) ~[SpongeGameRegistry.class:1.12.2-2768-7.1.5]
 	at com.erigitic.main.TotalEconomy.preInit(TotalEconomy.java:193) ~[TotalEconomy.class:?]
-	at org.spongepowered.common.event.listener.GamePreInitializationEventListener_TotalEconomy_preInit6.handle(Unknown Source) ~[?:?]
+	at org.spongepowered.common.event.listener.GamePreInitializationEventListener_TotalEconomy_preInit8.handle(Unknown Source) ~[?:?]
 	at org.spongepowered.common.event.RegisteredListener.handle(RegisteredListener.java:95) ~[RegisteredListener.class:1.12.2-2768-7.1.5]
 	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:383) [SpongeModEventManager.class:1.12.2-2768-7.1.5]
 	at org.spongepowered.mod.event.SpongeModEventManager.extendedPost(SpongeModEventManager.java:443) [SpongeModEventManager.class:1.12.2-2768-7.1.5]
@@ -105,55 +107,1354 @@ org.spongepowered.api.registry.RegistryModuleAlreadyRegisteredException: Already
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) [nz.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
-[11:40:24] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 7.0.5
-[11:40:24] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[11:40:24] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Starting version check at https://files.minecraftforge.net/maven/org/spongepowered/spongeforge/promotions_slim.json
-[11:40:25] [Server thread/INFO] [Pixelmon]: Checking for migrations..
-[11:40:25] [Server thread/INFO] [Pixelmon]: Loading Advancements
-[11:40:25] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Found status: OUTDATED Target: 7.1.2
-[11:40:26] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Utilities:loadDefaultCooldowns:106]: 2120447d-bb7a-49f3-83a0-aad8d4f2b7c5
-[11:40:26] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Wondertrade:preInit:53]: [Wondertrade] Successfully loaded configuration File.
-[11:40:26] [Server thread/INFO] [FML]: Applying holder lookups
-[11:40:26] [Server thread/INFO] [FML]: Holder lookups applied
-[11:40:26] [Server thread/INFO] [Pixelmon]: Loading TM/HMs.
-[11:40:27] [Server thread/INFO] [FML]: Applying holder lookups
-[11:40:27] [Server thread/INFO] [FML]: Holder lookups applied
-[11:40:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `sponge` for name `human`, expected `spongeforge`. This could be a intended override, but in most cases indicates a broken mod.
-[11:40:27] [Server thread/INFO] [FML]: Applying holder lookups
-[11:40:27] [Server thread/INFO] [FML]: Holder lookups applied
-[11:40:27] [Server thread/INFO] [FML]: Applying holder lookups
-[11:40:27] [Server thread/INFO] [FML]: Holder lookups applied
-[11:40:27] [Server thread/INFO] [FML]: Injecting itemstacks
-[11:40:27] [Server thread/INFO] [FML]: Itemstack injection complete
-[11:40:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[11:40:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[11:40:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[11:40:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[11:40:27] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
-[11:40:27] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:40:27] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[11:40:27] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:40:27] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:40:27] [Server thread/INFO] [FML]: Applying holder lookups
-[11:40:27] [Server thread/INFO] [FML]: Holder lookups applied
-[11:40:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ?f[?6PokeDex?f] ?ePokeDex Rewards - Loaded v0.8!
-[11:40:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ?f[?6PokeDex?f] ?eBy Xenoyia Updated by ?bFerris#0546?7(?eJirachi?7)?e with help from MageFX and XpanD!
-[11:40:27] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
-[11:40:27] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
-[11:40:27] [Server thread/INFO] [Pixelmon]: Registering shop items.
-[11:40:27] [Server thread/INFO] [Pixelmon]: Registering NPCs.
-[11:40:28] [Server thread/INFO] [Pixelmon]: Registered NPC trades.
-[11:40:28] [Server thread/INFO] [Pixelmon]: Registering structures.
-[11:40:30] [Server thread/INFO] [Pixelmon]: Registering drops.
-[11:40:30] [Server thread/INFO] [Pixelmon]: Registering Pokémon drops.
-[11:40:30] [Server thread/INFO] [Pixelmon]: Registering battle rules.
-[11:40:36] [Server thread/INFO] [FML]: Injecting itemstacks
-[11:40:36] [Server thread/INFO] [FML]: Itemstack injection complete
-[11:40:36] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
-[11:40:37] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 15 mods
-[11:40:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[11:40:37] [Server thread/INFO] [Sponge]: Checking for worlds that need to be migrated...
-[11:40:37] [Server thread/INFO] [Sponge]: No worlds were found in need of migration.
-[11:40:37] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[11:40:38] [Server thread/INFO] [FML]: Applying holder lookups
-[11:40:38] [Server thread/INFO] [FML]: Holder lookups applied
+[14:15:22] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 7.0.5
+[14:15:23] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[14:15:24] [Server thread/INFO] [Pixelmon]: Checking for migrations..
+[14:15:24] [Server thread/INFO] [Pixelmon]: Loading Advancements
+[14:15:25] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Utilities:loadDefaultCooldowns:106]: 2120447d-bb7a-49f3-83a0-aad8d4f2b7c5
+[14:15:25] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Wondertrade:preInit:53]: [Wondertrade] Successfully loaded configuration File.
+[14:15:26] [Server thread/INFO] [FML]: Applying holder lookups
+[14:15:26] [Server thread/INFO] [FML]: Holder lookups applied
+[14:15:26] [Server thread/INFO] [Pixelmon]: Loading TM/HMs.
+[14:15:26] [Server thread/INFO] [FML]: Applying holder lookups
+[14:15:26] [Server thread/INFO] [FML]: Holder lookups applied
+[14:15:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `sponge` for name `human`, expected `spongeforge`. This could be a intended override, but in most cases indicates a broken mod.
+[14:15:26] [Server thread/INFO] [FML]: Applying holder lookups
+[14:15:26] [Server thread/INFO] [FML]: Holder lookups applied
+[14:15:26] [Server thread/INFO] [FML]: Applying holder lookups
+[14:15:26] [Server thread/INFO] [FML]: Holder lookups applied
+[14:15:26] [Server thread/INFO] [FML]: Injecting itemstacks
+[14:15:26] [Server thread/INFO] [FML]: Itemstack injection complete
+[14:15:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[14:15:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[14:15:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[14:15:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[14:15:26] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[14:15:26] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:15:26] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[14:15:26] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:15:26] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:15:27] [Server thread/INFO] [FML]: Applying holder lookups
+[14:15:27] [Server thread/INFO] [FML]: Holder lookups applied
+[14:15:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ?f[?6PokeDex?f] ?ePokeDex Rewards - Loaded v0.8!
+[14:15:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ?f[?6PokeDex?f] ?eBy Xenoyia Updated by ?bFerris#0546?7(?eJirachi?7)?e with help from MageFX and XpanD!
+[14:15:27] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[14:15:27] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[14:15:27] [Server thread/INFO] [Pixelmon]: Registering shop items.
+[14:15:27] [Server thread/INFO] [Pixelmon]: Registering NPCs.
+[14:15:27] [Server thread/INFO] [Pixelmon]: Registered NPC trades.
+[14:15:27] [Server thread/INFO] [Pixelmon]: Registering structures.
+[14:15:30] [Netty Server IO #1/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[14:15:30] [Server thread/INFO] [Pixelmon]: Registering drops.
+[14:15:30] [Server thread/INFO] [Pixelmon]: Registering Pokémon drops.
+[14:15:30] [Server thread/INFO] [Pixelmon]: Registering battle rules.
+[14:15:37] [Server thread/INFO] [FML]: Injecting itemstacks
+[14:15:37] [Server thread/INFO] [FML]: Itemstack injection complete
+[14:15:37] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
+[14:15:38] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 15 mods
+[14:15:38] [Netty Server IO #2/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[14:15:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[14:15:38] [Server thread/INFO] [Sponge]: Checking for worlds that need to be migrated...
+[14:15:38] [Server thread/INFO] [Sponge]: No worlds were found in need of migration.
+[14:15:38] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[14:15:38] [Server thread/INFO] [FML]: Applying holder lookups
+[14:15:39] [Server thread/INFO] [FML]: Holder lookups applied
+[14:15:39] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 703 advancements
+[14:15:39] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 111 advancement trees
+[14:15:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0 (world)
+[14:15:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 58%
+[14:15:41] [Netty Server IO #3/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[14:15:41] [Server thread/INFO] [Sponge]: Loading world [world] (overworld)
+[14:15:41] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 703 advancements
+[14:15:41] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 111 advancement trees
+[14:15:41] [Server thread/INFO] [Sponge]: Loading world [DIM-1] (the_nether)
+[14:15:41] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 703 advancements
+[14:15:41] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 111 advancement trees
+[14:15:41] [Server thread/INFO] [Sponge]: Loading world [DIM1] (the_end)
+[14:15:41] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 703 advancements
+[14:15:41] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 111 advancement trees
+[14:15:41] [Server thread/INFO] [Sponge]: Loading world [ultra] (ultra_space)
+[14:15:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (3,454s)! For help, type "help" or "?"
+[14:15:42] [Netty Server IO #4/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[14:15:42] [Server thread/INFO] [totaleconomy]: Total Economy Started
+[14:15:50] [Netty Server IO #6/INFO] [FML]: Client protocol version 2
+[14:15:50] [Netty Server IO #6/INFO] [FML]: Client attempting to join with 15 mods : minecraft@1.12.2,sponge@1.12.2-7.1.5,FML@8.0.99.99,spongeapi@7.1.0-366290f8,totaleconomy@1.8.1,pokedexrewards@0.8,pixelextras@2.4.2,jei@4.15.0.268,economylite@2.15.1,wondertrade@4.6.0,spongeforge@1.12.2-2768-7.1.5,forge@14.23.5.2811,mcp@9.42,journeymap@1.12.2-5.5.3,pixelmon@7.0.5
+[14:15:50] [Netty Server IO #6/INFO] [journeymap]: CLIENT
+[14:15:50] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[14:15:50] [Server thread/INFO] [journeymap]: Andre joining dimension 0
+[14:15:50] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.handler$playerLoggedIn2$zjn000(PlayerList.java:2055) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:368) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1592) [pl.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 30 more
+[14:15:50] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Andre[/127.0.0.1:58092] logged in with entity id 7 in world(0) at (-851.392117592201, 73.0, -178.35607652358948)
+[14:15:50] [Server thread/INFO] [journeymap]: Sending log in packet.
+[14:15:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Andre joined the game
+[14:15:56] [Netty Server IO #7/INFO] [FML]: Client protocol version 2
+[14:15:56] [Netty Server IO #7/INFO] [FML]: Client attempting to join with 15 mods : minecraft@1.12.2,sponge@1.12.2-7.1.5,FML@8.0.99.99,spongeapi@7.1.0-366290f8,totaleconomy@1.8.1,pokedexrewards@0.8,pixelextras@2.4.2,jei@4.15.0.268,economylite@2.15.1,wondertrade@4.6.0,spongeforge@1.12.2-2768-7.1.5,forge@14.23.5.2768,mcp@9.42,journeymap@1.12.2-5.5.3,pixelmon@7.0.5
+[14:15:56] [Netty Server IO #7/INFO] [journeymap]: CLIENT
+[14:15:56] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[14:15:56] [Server thread/INFO] [journeymap]: Mr.Jack joining dimension 0
+[14:15:56] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.handler$playerLoggedIn2$zjn000(PlayerList.java:2055) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:368) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1592) [pl.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 30 more
+[14:15:56] [Server thread/WARN] [io.netty.channel.embedded.EmbeddedChannel]: More than one exception was raised. Will report only the first one and log others.
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.handler$playerLoggedIn2$zjn000(PlayerList.java:2055) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:368) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1592) [pl.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 30 more
+[14:15:56] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Mr.Jack[/25.90.59.187:62150] logged in with entity id 49 in world(0) at (-740.1488002167422, 82.0, -869.675197318497)
+[14:15:57] [Server thread/INFO] [journeymap]: Sending log in packet.
+[14:15:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack joined the game
+[14:17:51] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2777ms behind, skipping 55 tick(s)
+[14:20:41] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Andre moved too quickly! -5081.072455018584,8.10199998617172,3482.6054396546606
+[14:23:04] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-438, 341] in dimension 0 (overworld) while populating chunk [-438, 340], causing cascading worldgen lag.
+[14:23:04] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[14:26:58] [Server thread/WARN] [Sponge]: EntityPixelmon['Simipour'/1229, l='world', x=-21025,84, y=121,49, z=14518,60] is not in this chunk, skipping save. This is a bug fix to a vanilla bug. Do not report this to Sponge or Forge please.
+[14:38:20] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-426, 355] in dimension 0 (overworld) while populating chunk [-426, 354], causing cascading worldgen lag.
+[14:38:20] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[14:38:21] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-425, 353] in dimension 0 (overworld) while populating chunk [-425, 352], causing cascading worldgen lag.
+[14:38:21] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[14:40:20] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-438, 341] in dimension 0 (overworld) while populating chunk [-437, 341], causing cascading worldgen lag.
+[14:40:20] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:02:54] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-702, 499] in dimension 0 (overworld) while populating chunk [-703, 499], causing cascading worldgen lag.
+[15:02:54] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[15:06:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Teleported Andre to Mr.Jack]
+[15:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: This server is running Wondertrade by GhostWolf!
+[15:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: For a tutorial see: https://www.youtube.com/ghostwolfgames
+[15:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Current Wondertrade pool contains: 100 Pixelmon
+[15:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Try your luck at getting it with /wondertrade
+[15:25:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Entei has spawned in a Extreme Hills M biome!
+[15:25:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Entei at: world x:-343, y:63, z:285
+[15:25:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Teleported Mr.Jack to Andre]
+[15:25:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Given [Ultra Ball] * 64 to Andre]
+[15:27:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Teleported Mr.Jack to Andre]
+[15:32:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Teleported Mr.Jack to Andre]
+[15:32:46] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Mr.Jack lost connection: Disconnected
+[15:32:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack left the game
+[15:32:56] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[15:32:56] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 15 mods : minecraft@1.12.2,sponge@1.12.2-7.1.5,FML@8.0.99.99,spongeapi@7.1.0-366290f8,totaleconomy@1.8.1,pokedexrewards@0.8,pixelextras@2.4.2,jei@4.15.0.268,economylite@2.15.1,wondertrade@4.6.0,spongeforge@1.12.2-2768-7.1.5,forge@14.23.5.2768,mcp@9.42,journeymap@1.12.2-5.5.3,pixelmon@7.0.5
+[15:32:56] [Netty Server IO #1/INFO] [journeymap]: CLIENT
+[15:32:56] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[15:32:56] [Server thread/INFO] [journeymap]: Mr.Jack joining dimension 0
+[15:32:56] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.handler$playerLoggedIn2$zjn000(PlayerList.java:2055) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:368) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1592) [pl.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 30 more
+[15:32:56] [Server thread/WARN] [io.netty.channel.embedded.EmbeddedChannel]: More than one exception was raised. Will report only the first one and log others.
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.handler$playerLoggedIn2$zjn000(PlayerList.java:2055) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:368) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1592) [pl.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 30 more
+[15:32:56] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Mr.Jack[/25.90.59.187:62489] logged in with entity id 10843 in world(0) at (-188.63327941737282, 77.0, 388.6818794005338)
+[15:32:56] [Server thread/INFO] [journeymap]: Sending log in packet.
+[15:32:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack joined the game
+[15:45:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Given [Quick Ball] * 64 to Mr.Jack]
+[15:51:07] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Andre lost connection: Disconnected
+[15:51:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Andre left the game
+[15:51:18] [Netty Server IO #4/INFO] [FML]: Client protocol version 2
+[15:51:18] [Netty Server IO #4/INFO] [FML]: Client attempting to join with 15 mods : minecraft@1.12.2,sponge@1.12.2-7.1.5,FML@8.0.99.99,spongeapi@7.1.0-366290f8,totaleconomy@1.8.1,pokedexrewards@0.8,pixelextras@2.4.2,jei@4.15.0.268,economylite@2.15.1,wondertrade@4.6.0,spongeforge@1.12.2-2768-7.1.5,forge@14.23.5.2811,mcp@9.42,journeymap@1.12.2-5.5.3,pixelmon@7.0.5
+[15:51:18] [Netty Server IO #4/INFO] [journeymap]: CLIENT
+[15:51:18] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[15:51:18] [Server thread/INFO] [journeymap]: Andre joining dimension 0
+[15:51:18] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.handler$playerLoggedIn2$zjn000(PlayerList.java:2055) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:368) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1592) [pl.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 30 more
+[15:51:18] [Server thread/WARN] [io.netty.channel.embedded.EmbeddedChannel]: More than one exception was raised. Will report only the first one and log others.
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.handler$playerLoggedIn2$zjn000(PlayerList.java:2055) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:368) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1592) [pl.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 30 more
+[15:51:19] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Andre[/127.0.0.1:58833] logged in with entity id 13204 in world(0) at (-853.0, 73.0, -178.0)
+[15:51:19] [Server thread/INFO] [journeymap]: Sending log in packet.
+[15:51:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Andre joined the game
+[15:52:16] [Server thread/ERROR] [Pixelmon]: Invalid item ID found in SpawnInfo: pixelmon:satchet is not a recognized item.
+[15:53:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Cosmog has spawned in a Sunflower Plains biome!
+[15:53:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Cosmog at: world x:-782, y:71, z:-86
+[15:53:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Teleported Mr.Jack to Andre]
+[15:58:09] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Andre moved too quickly! -60.779052734375,-16.57840000152588,792.513671875
+[16:02:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Andre has made the advancement [One out of ten isn’t bad right?]
+[16:02:20] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-175, -57] in dimension 0 (overworld) while populating chunk [-174, -57], causing cascading worldgen lag.
+[16:02:20] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[16:02:21] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-171, -58] in dimension 0 (overworld) while populating chunk [-170, -58], causing cascading worldgen lag.
+[16:02:21] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[16:02:21] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-171, -59] in dimension 0 (overworld) while populating chunk [-170, -58], causing cascading worldgen lag.
+[16:02:21] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[16:10:02] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Andre moved too quickly! -3875.585205078125,0.4019999980926485,-2950.117431640625
+[16:10:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Teleported Mr.Jack to Andre]
+[16:11:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack has made the advancement [Stone Age]
+[16:14:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Given [Healer] * 1 to Andre]
+[16:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: This server is running Wondertrade by GhostWolf!
+[16:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: For a tutorial see: https://www.youtube.com/ghostwolfgames
+[16:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Current Wondertrade pool contains: 100 Pixelmon
+[16:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Try your luck at getting it with /wondertrade
+[17:03:57] [Server thread/WARN] [Sponge]: Unable to find InventoryPacketState handler for click window packet: CPacketClickWindow{windowId=0, slotId=-999, usedButton=3, actionNumber=40, clickedItem=1xtile.air@0, mode=CLONE}
+[17:07:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Given [Steak] * 64 to Mr.Jack]
+[17:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: This server is running Wondertrade by GhostWolf!
+[17:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: For a tutorial see: https://www.youtube.com/ghostwolfgames
+[17:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Current Wondertrade pool contains: 100 Pixelmon
+[17:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Try your luck at getting it with /wondertrade
+[17:36:49] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Mr.Jack moved wrongly!
+[17:48:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Entei has spawned in a Extreme Hills biome!
+[17:48:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Entei at: world x:-618, y:73, z:-1252
+[18:05:27] [Server thread/WARN] [net.minecraft.entity.EntityTrackerEntry]: Fetching addPacket for removed entity
+[18:13:41] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Andre lost connection: Disconnected
+[18:13:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Andre left the game
+[18:14:53] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Mr.Jack lost connection: Disconnected
+[18:14:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack left the game
+[18:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: This server is running Wondertrade by GhostWolf!
+[18:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: For a tutorial see: https://www.youtube.com/ghostwolfgames
+[18:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Current Wondertrade pool contains: 100 Pixelmon
+[18:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Try your luck at getting it with /wondertrade
+[18:18:09] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2748ms behind, skipping 54 tick(s)
+[18:18:15] [Netty Server IO #7/INFO] [FML]: Client protocol version 2
+[18:18:15] [Netty Server IO #7/INFO] [FML]: Client attempting to join with 15 mods : minecraft@1.12.2,sponge@1.12.2-7.1.5,FML@8.0.99.99,spongeapi@7.1.0-366290f8,totaleconomy@1.8.1,pokedexrewards@0.8,pixelextras@2.4.2,jei@4.15.0.268,economylite@2.15.1,wondertrade@4.6.0,spongeforge@1.12.2-2768-7.1.5,forge@14.23.5.2768,mcp@9.42,journeymap@1.12.2-5.5.3,pixelmon@7.0.5
+[18:18:15] [Netty Server IO #7/INFO] [journeymap]: CLIENT
+[18:18:15] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[18:18:16] [Server thread/INFO] [journeymap]: Mr.Jack joining dimension 0
+[18:18:16] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.handler$playerLoggedIn2$zjn000(PlayerList.java:2055) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:368) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1592) [pl.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 30 more
+[18:18:16] [Server thread/WARN] [io.netty.channel.embedded.EmbeddedChannel]: More than one exception was raised. Will report only the first one and log others.
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.handler$playerLoggedIn2$zjn000(PlayerList.java:2055) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:368) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1592) [pl.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 30 more
+[18:18:16] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Mr.Jack[/25.90.59.187:63850] logged in with entity id 28409 in world(0) at (-953.0560859735168, 68.0, 153.99972094681505)
+[18:18:16] [Server thread/INFO] [journeymap]: Sending log in packet.
+[18:18:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack joined the game
+[18:23:10] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Mr.Jack lost connection: Disconnected
+[18:23:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack left the game
+[18:23:19] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[18:23:19] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 15 mods : minecraft@1.12.2,sponge@1.12.2-7.1.5,FML@8.0.99.99,spongeapi@7.1.0-366290f8,totaleconomy@1.8.1,pokedexrewards@0.8,pixelextras@2.4.2,jei@4.15.0.268,economylite@2.15.1,wondertrade@4.6.0,spongeforge@1.12.2-2768-7.1.5,forge@14.23.5.2768,mcp@9.42,journeymap@1.12.2-5.5.3,pixelmon@7.0.5
+[18:23:19] [Netty Server IO #1/INFO] [journeymap]: CLIENT
+[18:23:19] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[18:23:19] [Server thread/INFO] [journeymap]: Mr.Jack joining dimension 0
+[18:23:19] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.handler$playerLoggedIn2$zjn000(PlayerList.java:2055) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:368) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1592) [pl.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 30 more
+[18:23:19] [Server thread/WARN] [io.netty.channel.embedded.EmbeddedChannel]: More than one exception was raised. Will report only the first one and log others.
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.handler$playerLoggedIn2$zjn000(PlayerList.java:2055) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:368) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1592) [pl.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 30 more
+[18:23:19] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Mr.Jack[/25.90.59.187:63900] logged in with entity id 28731 in world(0) at (-847.3000000119209, 73.0, -181.69999998807907)
+[18:23:19] [Server thread/INFO] [journeymap]: Sending log in packet.
+[18:23:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack joined the game
+[18:26:52] [Netty Server IO #3/INFO] [FML]: Client protocol version 2
+[18:26:52] [Netty Server IO #3/INFO] [FML]: Client attempting to join with 15 mods : minecraft@1.12.2,sponge@1.12.2-7.1.5,FML@8.0.99.99,spongeapi@7.1.0-366290f8,totaleconomy@1.8.1,pokedexrewards@0.8,pixelextras@2.4.2,jei@4.15.0.268,economylite@2.15.1,wondertrade@4.6.0,spongeforge@1.12.2-2768-7.1.5,forge@14.23.5.2811,mcp@9.42,journeymap@1.12.2-5.5.3,pixelmon@7.0.5
+[18:26:52] [Netty Server IO #3/INFO] [journeymap]: CLIENT
+[18:26:52] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[18:26:52] [Server thread/INFO] [journeymap]: Andre joining dimension 0
+[18:26:52] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.handler$playerLoggedIn2$zjn000(PlayerList.java:2055) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:368) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1592) [pl.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 30 more
+[18:26:52] [Server thread/WARN] [io.netty.channel.embedded.EmbeddedChannel]: More than one exception was raised. Will report only the first one and log others.
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.handler$playerLoggedIn2$zjn000(PlayerList.java:2055) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:368) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1592) [pl.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 30 more
+[18:26:52] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Andre[/127.0.0.1:60209] logged in with entity id 28764 in world(0) at (-957.5667271910294, 68.0, 152.89414735551648)
+[18:26:52] [Server thread/INFO] [journeymap]: Sending log in packet.
+[18:26:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Andre joined the game
+[18:27:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Andre> piazao viciado
+[18:27:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Virizion has spawned in a ForestHills biome!
+[18:27:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Virizion at: world x:-844, y:64, z:-228
+[18:28:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Teleported Andre to Mr.Jack]
+[18:28:24] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Andre moved too quickly! -104.22172850370407,-2.5784000015258783,337.47783201932907
+[18:31:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Teleported Andre to Mr.Jack]
+[18:31:21] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Andre moved too quickly! -106.87925364083708,7.421599998474122,252.80652012072406
+[18:36:44] [Server thread/WARN] [Sponge]: EntityPixelmon['Virizion'/28820, l='world', x=-1587,08, y=124,45, z=-438,04] is not in this chunk, skipping save. This is a bug fix to a vanilla bug. Do not report this to Sponge or Forge please.
+[18:36:44] [Server thread/WARN] [Sponge]: EntityPixelmon['Virizion'/28820, l='world', x=-1587,08, y=124,45, z=-438,04] is not in this chunk, skipping save. This is a bug fix to a vanilla bug. Do not report this to Sponge or Forge please.
+[18:44:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Given [Ultra Ball] * 64 to Andre]
+[18:44:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Given [Net Ball] * 64 to Andre]
+[18:44:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Given [Dusk Ball] * 64 to Andre]
+[18:45:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Teleported Andre to Mr.Jack]
+[18:48:41] [Server thread/WARN] [net.minecraft.entity.EntityTrackerEntry]: Fetching addPacket for removed entity
+[18:53:41] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-383, -288] in dimension 0 (overworld) while populating chunk [-384, -288], causing cascading worldgen lag.
+[18:53:41] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[18:58:16] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-382, -288] in dimension 0 (overworld) while populating chunk [-382, -289], causing cascading worldgen lag.
+[18:58:16] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[19:00:30] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-413, -272] in dimension 0 (overworld) while populating chunk [-413, -273], causing cascading worldgen lag.
+[19:00:30] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[19:01:35] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Mr.Jack moved too quickly! 0.0,-13.815819556004698,0.0
+[19:04:38] [Server thread/INFO] [journeymap]: Mr.Jack joining dimension 72
+[19:04:38] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at org.spongepowered.common.entity.EntityUtil.transferPlayerToDimension(EntityUtil.java:291) [EntityUtil.class:1.12.2-2768-7.1.5]
+	at net.minecraft.server.management.PlayerList.transferPlayerToDimension(PlayerList.java:1888) [pl.class:?]
+	at com.pixelmonmod.pixelmon.util.helpers.DimensionHelper.teleport(DimensionHelper.java:25) [DimensionHelper.class:?]
+	at com.pixelmonmod.pixelmon.entities.EntityWormhole.func_70100_b_(EntityWormhole.java:162) [EntityWormhole.class:?]
+	at net.minecraft.entity.player.EntityPlayer.redirect$onPlayerCollideEntity$zgp000(EntityPlayer.java:3770) [aed.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_71044_o(EntityPlayer.java:600) [aed.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_70636_d(EntityPlayer.java:571) [aed.class:?]
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2179) [vp.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_70071_h_(EntityPlayer.java:234) [aed.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.func_71127_g(EntityPlayerMP.java:382) [oq.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.redirect$onPlayerTick$zip000(NetHandlerPlayServer.java:2050) [pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_73660_a(NetHandlerPlayServer.java:173) [pa.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 37 more
+[19:04:38] [Server thread/WARN] [io.netty.channel.embedded.EmbeddedChannel]: More than one exception was raised. Will report only the first one and log others.
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at org.spongepowered.common.entity.EntityUtil.transferPlayerToDimension(EntityUtil.java:291) [EntityUtil.class:1.12.2-2768-7.1.5]
+	at net.minecraft.server.management.PlayerList.transferPlayerToDimension(PlayerList.java:1888) [pl.class:?]
+	at com.pixelmonmod.pixelmon.util.helpers.DimensionHelper.teleport(DimensionHelper.java:25) [DimensionHelper.class:?]
+	at com.pixelmonmod.pixelmon.entities.EntityWormhole.func_70100_b_(EntityWormhole.java:162) [EntityWormhole.class:?]
+	at net.minecraft.entity.player.EntityPlayer.redirect$onPlayerCollideEntity$zgp000(EntityPlayer.java:3770) [aed.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_71044_o(EntityPlayer.java:600) [aed.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_70636_d(EntityPlayer.java:571) [aed.class:?]
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2179) [vp.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_70071_h_(EntityPlayer.java:234) [aed.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.func_71127_g(EntityPlayerMP.java:382) [oq.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.redirect$onPlayerTick$zip000(NetHandlerPlayServer.java:2050) [pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_73660_a(NetHandlerPlayServer.java:173) [pa.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 37 more
+[19:04:45] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2377ms behind, skipping 47 tick(s)
+[19:05:49] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-54, -26] in dimension 72 (ultra_space) while populating chunk [-55, -26], causing cascading worldgen lag.
+[19:05:49] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[19:06:08] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-57, -28] in dimension 72 (ultra_space) while populating chunk [-58, -28], causing cascading worldgen lag.
+[19:06:09] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[19:07:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack has made the advancement [Diamonds!]
+[19:07:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack has made the advancement [Cover Me With Diamonds]
+[19:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: This server is running Wondertrade by GhostWolf!
+[19:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: For a tutorial see: https://www.youtube.com/ghostwolfgames
+[19:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Current Wondertrade pool contains: 100 Pixelmon
+[19:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Try your luck at getting it with /wondertrade
+[19:21:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Andre fell from a high place
+[19:21:32] [Server thread/INFO] [journeymap]: Andre joining dimension 0
+[19:21:32] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.mod.event.SpongeToForgeEventFactory.createAndPostEntityJoinWorldEvent(SpongeToForgeEventFactory.java:576) [SpongeToForgeEventFactory.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.mod.event.SpongeToForgeEventFactory.createAndPostForgeEvent(SpongeToForgeEventFactory.java:280) [SpongeToForgeEventFactory.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:338) [SpongeModEventManager.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.mod.event.SpongeModEventManager.extendedPost(SpongeModEventManager.java:435) [SpongeModEventManager.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:404) [SpongeModEventManager.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.SpongeEventManager.post(SpongeEventManager.java:465) [SpongeEventManager.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:242) [SpongeImpl.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntityWithCause(PhaseTracker.java:970) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.spawnEntity(WorldServer.java:3134) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.func_72368_a(PlayerList.java:1852) [pl.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147342_a(NetHandlerPlayServer.java:1119) [pa.class:?]
+	at net.minecraft.network.play.client.CPacketClientStatus.func_148833_a(SourceFile:31) [lb.class:?]
+	at net.minecraft.network.play.client.CPacketClientStatus.func_148833_a(SourceFile:8) [lb.class:?]
+	at org.spongepowered.common.event.tracking.phase.packet.PacketPhaseUtil.onProcessPacket(PacketPhaseUtil.java:193) [PacketPhaseUtil.class:1.12.2-2768-7.1.5]
+	at net.minecraft.network.PacketThreadUtil$1.redirect$onProcessPacket$zli000(SourceFile:539) [hv$1.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) [hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_201]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_201]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at org.spongepowered.common.SpongeImplHooks.onUtilRunTask(SpongeImplHooks.java:297) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at net.minecraft.server.MinecraftServer.redirect$onRun$zjm000(MinecraftServer.java:3963) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 40 more
+[19:21:32] [Server thread/WARN] [io.netty.channel.embedded.EmbeddedChannel]: More than one exception was raised. Will report only the first one and log others.
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.mod.event.SpongeToForgeEventFactory.createAndPostEntityJoinWorldEvent(SpongeToForgeEventFactory.java:576) [SpongeToForgeEventFactory.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.mod.event.SpongeToForgeEventFactory.createAndPostForgeEvent(SpongeToForgeEventFactory.java:280) [SpongeToForgeEventFactory.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:338) [SpongeModEventManager.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.mod.event.SpongeModEventManager.extendedPost(SpongeModEventManager.java:435) [SpongeModEventManager.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:404) [SpongeModEventManager.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.SpongeEventManager.post(SpongeEventManager.java:465) [SpongeEventManager.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:242) [SpongeImpl.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntityWithCause(PhaseTracker.java:970) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.spawnEntity(WorldServer.java:3134) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.func_72368_a(PlayerList.java:1852) [pl.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147342_a(NetHandlerPlayServer.java:1119) [pa.class:?]
+	at net.minecraft.network.play.client.CPacketClientStatus.func_148833_a(SourceFile:31) [lb.class:?]
+	at net.minecraft.network.play.client.CPacketClientStatus.func_148833_a(SourceFile:8) [lb.class:?]
+	at org.spongepowered.common.event.tracking.phase.packet.PacketPhaseUtil.onProcessPacket(PacketPhaseUtil.java:193) [PacketPhaseUtil.class:1.12.2-2768-7.1.5]
+	at net.minecraft.network.PacketThreadUtil$1.redirect$onProcessPacket$zli000(SourceFile:539) [hv$1.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) [hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_201]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_201]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at org.spongepowered.common.SpongeImplHooks.onUtilRunTask(SpongeImplHooks.java:297) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at net.minecraft.server.MinecraftServer.redirect$onRun$zjm000(MinecraftServer.java:3963) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 40 more
+[19:22:55] [Server thread/INFO] [journeymap]: Mr.Jack joining dimension 0
+[19:22:55] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at org.spongepowered.common.entity.EntityUtil.transferPlayerToDimension(EntityUtil.java:291) [EntityUtil.class:1.12.2-2768-7.1.5]
+	at net.minecraft.server.management.PlayerList.transferPlayerToDimension(PlayerList.java:1888) [pl.class:?]
+	at com.pixelmonmod.pixelmon.util.helpers.DimensionHelper.teleport(DimensionHelper.java:25) [DimensionHelper.class:?]
+	at com.pixelmonmod.pixelmon.worldGeneration.dimension.ultraspace.UltraSpaceEventHandler.onLivingTick(UltraSpaceEventHandler.java:72) [UltraSpaceEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_78_UltraSpaceEventHandler_onLivingTick_LivingUpdateEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:697) [EventBus.class:?]
+	at net.minecraftforge.common.ForgeHooks.onLivingUpdate(ForgeHooks.java:575) [ForgeHooks.class:?]
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2095) [vp.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_70071_h_(EntityPlayer.java:234) [aed.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.func_71127_g(EntityPlayerMP.java:382) [oq.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.redirect$onPlayerTick$zip000(NetHandlerPlayServer.java:2050) [pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_73660_a(NetHandlerPlayServer.java:173) [pa.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 39 more
+[19:22:55] [Server thread/WARN] [io.netty.channel.embedded.EmbeddedChannel]: More than one exception was raised. Will report only the first one and log others.
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at org.spongepowered.common.entity.EntityUtil.transferPlayerToDimension(EntityUtil.java:291) [EntityUtil.class:1.12.2-2768-7.1.5]
+	at net.minecraft.server.management.PlayerList.transferPlayerToDimension(PlayerList.java:1888) [pl.class:?]
+	at com.pixelmonmod.pixelmon.util.helpers.DimensionHelper.teleport(DimensionHelper.java:25) [DimensionHelper.class:?]
+	at com.pixelmonmod.pixelmon.worldGeneration.dimension.ultraspace.UltraSpaceEventHandler.onLivingTick(UltraSpaceEventHandler.java:72) [UltraSpaceEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_78_UltraSpaceEventHandler_onLivingTick_LivingUpdateEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:697) [EventBus.class:?]
+	at net.minecraftforge.common.ForgeHooks.onLivingUpdate(ForgeHooks.java:575) [ForgeHooks.class:?]
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2095) [vp.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_70071_h_(EntityPlayer.java:234) [aed.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.func_71127_g(EntityPlayerMP.java:382) [oq.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.redirect$onPlayerTick$zip000(NetHandlerPlayServer.java:2050) [pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_73660_a(NetHandlerPlayServer.java:173) [pa.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 39 more
+[19:30:00] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Andre moved wrongly!
+[19:30:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Teleported Mr.Jack to Andre]
+[19:31:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Andre has made the advancement [Stone Age]
+[19:31:31] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2186ms behind, skipping 43 tick(s)
+[19:34:57] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2550ms behind, skipping 51 tick(s)
+[19:35:55] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 7997ms behind, skipping 159 tick(s)
+[19:36:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Tapu Lele has spawned in a Jungle biome!
+[19:36:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned TapuLele at: world x:-3376, y:63, z:3212
+[19:37:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Teleported Mr.Jack to Andre]
+[19:37:18] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Mr.Jack moved too quickly! 6599.695373893881,11.746600046157837,-3042.8202461638534
+[19:41:31] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Andre moved too quickly! 147.183349609375,4.421599998474122,-487.4150390625
+[19:48:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Teleported Mr.Jack to Andre]
+[19:48:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack has made the advancement [Monster Hunter]
+[19:53:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Teleported Mr.Jack to Andre]
+[19:56:46] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Mr.Jack moved too quickly! 0.0,-16.757616434986616,0.0
+[19:58:30] [Server thread/WARN] [net.minecraft.entity.EntityTrackerEntry]: Fetching addPacket for removed entity
+[20:04:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Entei has spawned in a Extreme Hills biome!
+[20:04:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Entei at: world x:-1386, y:105, z:99
+[20:08:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Teleported Mr.Jack to Andre]
+[20:09:10] [Server thread/INFO] [journeymap]: Andre joining dimension 72
+[20:09:10] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at org.spongepowered.common.entity.EntityUtil.transferPlayerToDimension(EntityUtil.java:291) [EntityUtil.class:1.12.2-2768-7.1.5]
+	at net.minecraft.server.management.PlayerList.transferPlayerToDimension(PlayerList.java:1888) [pl.class:?]
+	at com.pixelmonmod.pixelmon.util.helpers.DimensionHelper.teleport(DimensionHelper.java:25) [DimensionHelper.class:?]
+	at com.pixelmonmod.pixelmon.entities.EntityWormhole.func_70100_b_(EntityWormhole.java:162) [EntityWormhole.class:?]
+	at net.minecraft.entity.player.EntityPlayer.redirect$onPlayerCollideEntity$zgp000(EntityPlayer.java:3770) [aed.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_71044_o(EntityPlayer.java:600) [aed.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_70636_d(EntityPlayer.java:571) [aed.class:?]
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2179) [vp.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_70071_h_(EntityPlayer.java:234) [aed.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.func_71127_g(EntityPlayerMP.java:382) [oq.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.redirect$onPlayerTick$zip000(NetHandlerPlayServer.java:2050) [pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_73660_a(NetHandlerPlayServer.java:173) [pa.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 37 more
+[20:09:10] [Server thread/WARN] [io.netty.channel.embedded.EmbeddedChannel]: More than one exception was raised. Will report only the first one and log others.
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at org.spongepowered.common.entity.EntityUtil.transferPlayerToDimension(EntityUtil.java:291) [EntityUtil.class:1.12.2-2768-7.1.5]
+	at net.minecraft.server.management.PlayerList.transferPlayerToDimension(PlayerList.java:1888) [pl.class:?]
+	at com.pixelmonmod.pixelmon.util.helpers.DimensionHelper.teleport(DimensionHelper.java:25) [DimensionHelper.class:?]
+	at com.pixelmonmod.pixelmon.entities.EntityWormhole.func_70100_b_(EntityWormhole.java:162) [EntityWormhole.class:?]
+	at net.minecraft.entity.player.EntityPlayer.redirect$onPlayerCollideEntity$zgp000(EntityPlayer.java:3770) [aed.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_71044_o(EntityPlayer.java:600) [aed.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_70636_d(EntityPlayer.java:571) [aed.class:?]
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2179) [vp.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_70071_h_(EntityPlayer.java:234) [aed.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.func_71127_g(EntityPlayerMP.java:382) [oq.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.redirect$onPlayerTick$zip000(NetHandlerPlayServer.java:2050) [pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_73660_a(NetHandlerPlayServer.java:173) [pa.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 37 more
+[20:11:05] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Andre lost connection: Disconnected
+[20:11:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Andre left the game
+[20:11:09] [Netty Server IO #5/INFO] [FML]: Client protocol version 2
+[20:11:09] [Netty Server IO #5/INFO] [FML]: Client attempting to join with 15 mods : minecraft@1.12.2,sponge@1.12.2-7.1.5,FML@8.0.99.99,spongeapi@7.1.0-366290f8,totaleconomy@1.8.1,pokedexrewards@0.8,pixelextras@2.4.2,jei@4.15.0.268,economylite@2.15.1,wondertrade@4.6.0,spongeforge@1.12.2-2768-7.1.5,forge@14.23.5.2811,mcp@9.42,journeymap@1.12.2-5.5.3,pixelmon@7.0.5
+[20:11:09] [Netty Server IO #5/INFO] [journeymap]: CLIENT
+[20:11:09] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[20:11:09] [Server thread/INFO] [journeymap]: Andre joining dimension 72
+[20:11:09] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.handler$playerLoggedIn2$zjn000(PlayerList.java:2055) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:368) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1592) [pl.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 30 more
+[20:11:09] [Server thread/WARN] [io.netty.channel.embedded.EmbeddedChannel]: More than one exception was raised. Will report only the first one and log others.
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at net.minecraft.server.management.PlayerList.handler$playerLoggedIn2$zjn000(PlayerList.java:2055) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:368) [pl.class:?]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1592) [pl.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 30 more
+[20:11:09] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Andre[/127.0.0.1:52150] logged in with entity id 42325 in ultra(72) at (-850.0, 69.0, -391.0)
+[20:11:09] [Server thread/WARN] [net.minecraft.entity.EntityList]: Skipping Entity with id minecraft:
+[20:11:09] [Server thread/INFO] [journeymap]: Sending log in packet.
+[20:11:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Andre joined the game
+[20:12:46] [Server thread/INFO] [journeymap]: Andre joining dimension 0
+[20:12:46] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at org.spongepowered.common.entity.EntityUtil.transferPlayerToDimension(EntityUtil.java:291) [EntityUtil.class:1.12.2-2768-7.1.5]
+	at net.minecraft.server.management.PlayerList.transferPlayerToDimension(PlayerList.java:1888) [pl.class:?]
+	at com.pixelmonmod.pixelmon.util.helpers.DimensionHelper.teleport(DimensionHelper.java:25) [DimensionHelper.class:?]
+	at com.pixelmonmod.pixelmon.worldGeneration.dimension.ultraspace.UltraSpaceEventHandler.onLivingTick(UltraSpaceEventHandler.java:72) [UltraSpaceEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_78_UltraSpaceEventHandler_onLivingTick_LivingUpdateEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:697) [EventBus.class:?]
+	at net.minecraftforge.common.ForgeHooks.onLivingUpdate(ForgeHooks.java:575) [ForgeHooks.class:?]
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2095) [vp.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_70071_h_(EntityPlayer.java:234) [aed.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.func_71127_g(EntityPlayerMP.java:382) [oq.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.redirect$onPlayerTick$zip000(NetHandlerPlayServer.java:2050) [pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_73660_a(NetHandlerPlayServer.java:173) [pa.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 39 more
+[20:12:46] [Server thread/WARN] [io.netty.channel.embedded.EmbeddedChannel]: More than one exception was raised. Will report only the first one and log others.
+io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
+	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
+	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
+	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
+	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
+	at org.spongepowered.common.entity.EntityUtil.transferPlayerToDimension(EntityUtil.java:291) [EntityUtil.class:1.12.2-2768-7.1.5]
+	at net.minecraft.server.management.PlayerList.transferPlayerToDimension(PlayerList.java:1888) [pl.class:?]
+	at com.pixelmonmod.pixelmon.util.helpers.DimensionHelper.teleport(DimensionHelper.java:25) [DimensionHelper.class:?]
+	at com.pixelmonmod.pixelmon.worldGeneration.dimension.ultraspace.UltraSpaceEventHandler.onLivingTick(UltraSpaceEventHandler.java:72) [UltraSpaceEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_78_UltraSpaceEventHandler_onLivingTick_LivingUpdateEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:697) [EventBus.class:?]
+	at net.minecraftforge.common.ForgeHooks.onLivingUpdate(ForgeHooks.java:575) [ForgeHooks.class:?]
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2095) [vp.class:?]
+	at net.minecraft.entity.player.EntityPlayer.func_70071_h_(EntityPlayer.java:234) [aed.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.func_71127_g(EntityPlayerMP.java:382) [oq.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.redirect$onPlayerTick$zip000(NetHandlerPlayServer.java:2050) [pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_73660_a(NetHandlerPlayServer.java:173) [pa.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209) [NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
+Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
+	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
+	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
+	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
+	... 39 more
+[20:12:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Teleported Mr.Jack to Andre]
+[20:14:27] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Andre moved too quickly! 0.0,-16.796261193095262,0.0
+[20:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: This server is running Wondertrade by GhostWolf!
+[20:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: For a tutorial see: https://www.youtube.com/ghostwolfgames
+[20:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Current Wondertrade pool contains: 100 Pixelmon
+[20:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Try your luck at getting it with /wondertrade
+[20:16:01] [Server thread/WARN] [Sponge]: Entity being removed for bounding box restrictions
+[20:16:01] [Server thread/WARN] [Sponge]: BB Size: 1.331 > 1.000 avg edge: 9,485
+[20:16:01] [Server thread/WARN] [Sponge]: Motion: (0, 0, 0)
+[20:16:01] [Server thread/WARN] [Sponge]: Calculated bounding box: box[-6846.076000213623, 63.0, 5628.923999786377 -> -6836.923999786377, 73.1520004272461, 5638.076000213623]
+[20:16:01] [Server thread/WARN] [Sponge]: Entity bounding box: null
+[20:16:01] [Server thread/WARN] [Sponge]: Entity: EntityPixelmon['Groudon'/43458, l='world', x=-6841,50, y=63,00, z=5633,50]
+[20:16:01] [Server thread/WARN] [Sponge]: Entity NBT: {EVSpeed:0s,PixelmonMovePPBase3:5b,PixelmonMovePPBase2:20b,PixelmonMovePPBase1:10b,PixelmonMovePPBase0:5b,Attributes:[{Base:305.0d,Name:"generic.maxHealth"},{Base:0.0d,Name:"generic.knockbackResistance"},{Base:0.55d,Name:"generic.movementSpeed"},{Base:0.0d,Name:"generic.armor"},{Base:0.0d,Name:"generic.armorToughness"},{Base:1.0d,Name:"forge.swimSpeed"},{Base:16.0d,Name:"generic.followRange"}],Invulnerable:0b,Gender:2b,Name:"Groudon",IVDefence:31b,IVSpDef:28b,CaughtBall:0b,PersistenceRequired:0b,DoesLevel:1b,PixelmonMoveID1:611s,OwnerUUID:"",PixelmonMoveID0:320s,EVSpecialAttack:0s,Pos:[-6841.5d,63.0d,5633.5d],IVSpeed:31b,pixelmonType:0b,Level:97,EVDefence:0s,IVAttack:28b,Growth:4b,PixelmonMovePPMax1:16b,PixelmonMovePPMax2:32b,PixelmonMovePPMax3:8b,PersistentData:{SpongeData:{CanGrief:1b,maxAir:300}},EVSpecialDefence:0s,StatsSpecialDefence:206s,PixelmonMoveID3:126s,PixelmonMovePPMax0:8b,PixelmonMoveID2:392s,isInRanch:0b,Friendship:0s,StatsDefence:345s,EVAttack:0s,StatsSpecialAttack:358s,IVHP:5b,AbilitySlot:0b,EVHP:0s,ndex:383s,Nature:17b,Motion:[0.0d,0.0d,0.0d],StatsHP:305s,UUIDLeast:-7114551906224221609L,Health:305,Aggression:0b,OnGround:0b,Dimension:0,Rotation:[4.3266563f,0.0f],StatsSpeed:209s,IsShiny:1b,PixelmonMovePP3:5b,StatsAttack:342s,UUIDMost:6072384655690908663L,PixelmonMovePP2:20b,PixelmonMovePP1:10b,PixelmonMovePP0:5b,Fire:0s,PixelmonNumberMoves:4b,IVSpAtt:31b,EXP:0}
+[20:17:30] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Mr.Jack moved too quickly! 0.0,-13.076584530400638,0.0
+[20:18:49] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Mr.Jack moved too quickly! 0.0,-13.464062568188723,0.0
+[20:20:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Teleported Mr.Jack to Andre]
+[20:22:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack has made the advancement [Not getting away this time!]
+[20:23:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Given [Master Ball] * 1 to Mr.Jack]
+[20:24:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Teleported Mr.Jack to Andre]
+[20:26:57] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Mr.Jack moved too quickly! -5773.2994575244375,15.484100058078766,6058.960411231965
+[20:27:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Given [Ultra Ball] * 64 to Mr.Jack]
+[20:27:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack has made the advancement [Oooh, shiny!]
+[20:27:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Given [Quick Ball] * 64 to Andre]
+[20:40:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Teleported Mr.Jack to Andre]
+[20:41:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Teleported Mr.Jack to Andre]
+[20:43:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Manaphy has spawned in a Deep Ocean biome!
+[20:43:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Manaphy at: world x:-811, y:45, z:1392
+[20:44:32] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Andre moved too quickly! 11251.380630050151,15.02643665538433,-6739.223907864878
+[20:44:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Teleported Mr.Jack to Andre]
+[20:59:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Teleported Mr.Jack to Andre]
+[20:59:53] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Mr.Jack moved too quickly! 11293.811207894994,-6.640899971723556,-7668.7462855719
+[21:06:13] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity pixelmon:pixelmon but it was marked as removed already
+[21:09:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Mew has spawned in a Jungle M biome!
+[21:09:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Mew at: world x:-11975, y:63, z:8396
+[21:09:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Teleported Mr.Jack to Andre]
+[21:09:42] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Mr.Jack moved too quickly! 10732.944078127606,-3.8900870504682388,-8714.672795759805
+[21:10:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Andre has made the advancement [Well um technically it’s Mythical…]
+[21:11:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Given [Cloning Machine] * 1 to Andre]
+[21:12:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Given [Block of Diamond] * 3 to Andre]
+[21:13:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack has made the advancement [Behold my powers!]
+[21:13:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Set own game mode to Creative Mode]
+[21:13:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Set own game mode to Survival Mode]
+[21:13:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Given [Cloning Machine] * 1 to Andre]
+[21:14:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Given [Block of Diamond] * 3 to Andre]
+[21:15:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Given [Block of Diamond] * 3 to Andre]
+[21:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: This server is running Wondertrade by GhostWolf!
+[21:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: For a tutorial see: https://www.youtube.com/ghostwolfgames
+[21:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Current Wondertrade pool contains: 100 Pixelmon
+[21:15:52] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Try your luck at getting it with /wondertrade
+[21:17:59] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Andre lost connection: Disconnected
+[21:17:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Andre left the game
+[21:18:01] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Mr.Jack lost connection: Disconnected
+[21:18:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack left the game

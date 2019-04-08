@@ -103,7 +103,7 @@ General {
     # If enabled, players will be able to challenge others by throwing a Pokémon at the enemy player rather than a Pokémon.
     engagePlayerByPokeBall=true
     # Multiplier for experience gained in Pokémon battles.
-    expModifier=1
+    expModifier=5
     # What will happen if a battle is force-ended without a proper conclusion. 0: A winner is determined based on the number of remaining Pokémon (with % HP as a tiebreaker). 1: The battle is considered a draw. 2: The battle is considered abnormally ended.
     forceEndBattleResult=0
     # Adjusts the variation in size caused by growth (0-2). 1 is normal.
@@ -304,7 +304,7 @@ Spawning {
     # Number of blocks for a level increase when Spawn Levels By Distance enabled.
     distancePerLevel=30
     # The maximum number of entities (NPC or Pokémon) that can spawn per player. Lower for better performance.
-    entitiesPerPlayer=45
+    entitiesPerPlayer=60
     # Chance of a wild Pokémon spawning with its hidden Ability (1/rate). 0 disables hidden Ability spawns.
     hiddenAbilitySpawnRate=150
     # The horizontal radius of the areas randomly selected near the player to do spawning in. Lower for better performance but less reliable spawning.
@@ -316,7 +316,7 @@ Spawning {
     # Chance that a Legendary spawn attempt will succeed (0-1).
     legendarySpawnChance=0.30000001192092896
     # Average number of ticks before an attempt at Legendary spawning will be made (modified by spawn chance).
-    legendarySpawnTicks=25000
+    legendarySpawnTicks=20000
     # Which types of loot, such as "simple_dungeon", that Pixelmon should not modify.
     lootIgnoreList=[]
     # Maximum level Pokémon will spawn at when Spawn Levels By Distance enabled.
