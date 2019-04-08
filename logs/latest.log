@@ -1,75 +1,73 @@
-[21:39:47] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[21:39:47] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[21:39:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[21:39:47] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2825 for Minecraft 1.12.2 loading
-[21:39:47] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_201, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_201
-[21:39:47] [main/INFO] [FML]: Searching C:\Users\ANDRE\Documents\GitHub\pixelmonserver\.\mods for mods
-[21:39:47] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12.2-2768-7.1.5.jar
-[21:39:47] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:39:47] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[21:39:47] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/C:/Users/ANDRE/Documents/GitHub/pixelmonserver/./mods/spongeforge-1.12.2-2768-7.1.5.jar Service=LaunchWrapper Env=SERVER
-[21:39:47] [main/WARN] [FML]: The coremod SpongeCoremod (org.spongepowered.mod.SpongeCoremod) is not signed!
-[21:39:47] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[21:39:47] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[DEFAULT]
-[21:39:47] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[PREINIT]
-[21:39:47] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[INIT]
-[21:39:47] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[21:39:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:39:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:39:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[21:39:48] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[21:39:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[21:39:48] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[21:39:48] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@41f35f7c
-[21:39:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[21:39:49] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[21:39:49] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[21:39:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[21:39:49] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[21:39:55] [main/WARN] [mixin]: Static binding violation: PRIVATE overwrite method initializeConnectionToPlayer in mixins.common.core.json:server.MixinPlayerList cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[21:39:55] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[21:40:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[21:40:00] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2825 Initialized
-[21:40:00] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[21:40:00] [Server thread/INFO] [FML]: Replaced 1036 ore ingredients
-[21:40:00] [Server thread/INFO] [Sponge]: Found mcmod.info at jar:file:/C:/Users/ANDRE/Documents/GitHub/pixelmonserver/./mods/spongeforge-1.12.2-2768-7.1.5.jar!/mcmod.info
-[21:40:00] [Server thread/INFO] [Sponge]: Creating injector in stage 'PRODUCTION'
-[21:40:05] [Server thread/INFO] [FML]: Searching C:\Users\ANDRE\Documents\GitHub\pixelmonserver\.\mods for mods
-[21:40:06] [Server thread/INFO] [FML]: Forge Mod Loader has identified 15 mods to load
-[21:40:06] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[21:40:06] [Server thread/WARN] [FML]: Missing English translation for spongeapi: assets/spongeapi/lang/en_us.lang
-[21:40:06] [Server thread/WARN] [FML]: Missing English translation for spongeforge: assets/spongeforge/lang/en_us.lang
-[21:40:06] [Server thread/WARN] [FML]: Missing English translation for economylite: assets/economylite/lang/en_us.lang
-[21:40:06] [Server thread/WARN] [FML]: Missing English translation for pixelextras: assets/pixelextras/lang/en_us.lang
-[21:40:06] [Server thread/WARN] [FML]: Missing English translation for pokedexrewards: assets/pokedexrewards/lang/en_us.lang
-[21:40:06] [Server thread/WARN] [FML]: Missing English translation for totaleconomy: assets/totaleconomy/lang/en_us.lang
-[21:40:06] [Server thread/WARN] [FML]: Missing English translation for wondertrade: assets/wondertrade/lang/en_us.lang
-[21:40:06] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, economylite, jei, journeymap, pixelextras, pixelmon, pokedexrewards, totaleconomy, wondertrade] at CLIENT
-[21:40:06] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, economylite, jei, journeymap, pixelextras, pixelmon, pokedexrewards, totaleconomy, wondertrade] at SERVER
-[21:40:06] [Server thread/WARN] [Sponge]: There's no certificate fingerprint available
-[21:40:07] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[21:40:07] [Server thread/INFO] [FML]: Found 1169 ObjectHolder annotations
-[21:40:07] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[21:40:07] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[21:40:07] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[21:40:07] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Starting version check at https://files.minecraftforge.net/maven/org/spongepowered/spongeforge/promotions_slim.json
-[21:40:08] [Server thread/INFO] [economylite]: EconomyLite 2.15.1 is initializing!
-[21:40:08] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Found status: OUTDATED Target: 7.1.2
-[21:40:08] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[21:40:08] [Server thread/INFO] [economylite]: Using currency: Coin
-[21:40:08] [Server thread/INFO] [economylite]: The SQL module is disabled!
-[21:40:08] [Server thread/INFO] [economylite]: The Loan module is disabled!
-[21:40:08] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
-[21:40:08] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[21:40:08] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
-[21:40:09] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: UP_TO_DATE Target: null
-[21:40:09] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
-[21:40:10] [Server thread/ERROR] [Sponge]: Could not pass FMLPreInitializationEvent to Plugin{id=totaleconomy, name=Total Economy, version=1.8.1, description=All in one economy plugin for Minecraft/Sponge, source=.\mods\TotalEconomy-1.8.1.jar}
+[14:12:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[14:12:22] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[14:12:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[14:12:22] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2825 for Minecraft 1.12.2 loading
+[14:12:22] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_201, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_201
+[14:12:22] [main/INFO] [FML]: Searching C:\Users\gusta\Documents\Pixelmon Server\pixelmonserver\.\mods for mods
+[14:12:22] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12.2-2768-7.1.5.jar
+[14:12:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:12:22] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[14:12:22] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/C:/Users/gusta/Documents/Pixelmon%20Server/pixelmonserver/./mods/spongeforge-1.12.2-2768-7.1.5.jar Service=LaunchWrapper Env=SERVER
+[14:12:22] [main/WARN] [FML]: The coremod SpongeCoremod (org.spongepowered.mod.SpongeCoremod) is not signed!
+[14:12:22] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[14:12:22] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[DEFAULT]
+[14:12:22] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[PREINIT]
+[14:12:22] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[INIT]
+[14:12:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:12:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:12:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:12:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:12:24] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[14:12:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:12:24] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[14:12:24] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@12db3386
+[14:12:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:12:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:12:24] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[14:12:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:12:24] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[14:12:31] [main/WARN] [mixin]: Static binding violation: PRIVATE overwrite method initializeConnectionToPlayer in mixins.common.core.json:server.MixinPlayerList cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[14:12:31] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[14:12:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[14:12:36] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2825 Initialized
+[14:12:36] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[14:12:36] [Server thread/INFO] [FML]: Replaced 1036 ore ingredients
+[14:12:36] [Server thread/INFO] [Sponge]: Found mcmod.info at jar:file:/C:/Users/gusta/Documents/Pixelmon%20Server/pixelmonserver/./mods/spongeforge-1.12.2-2768-7.1.5.jar!/mcmod.info
+[14:12:36] [Server thread/INFO] [Sponge]: Creating injector in stage 'PRODUCTION'
+[14:12:40] [Server thread/INFO] [FML]: Searching C:\Users\gusta\Documents\Pixelmon Server\pixelmonserver\.\mods for mods
+[14:12:40] [Server thread/INFO] [FML]: Forge Mod Loader has identified 16 mods to load
+[14:12:40] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[14:12:40] [Server thread/WARN] [FML]: Missing English translation for spongeapi: assets/spongeapi/lang/en_us.lang
+[14:12:40] [Server thread/WARN] [FML]: Missing English translation for spongeforge: assets/spongeforge/lang/en_us.lang
+[14:12:40] [Server thread/WARN] [FML]: Missing English translation for economylite: assets/economylite/lang/en_us.lang
+[14:12:40] [Server thread/WARN] [FML]: Missing English translation for pixelextras: assets/pixelextras/lang/en_us.lang
+[14:12:40] [Server thread/WARN] [FML]: Missing English translation for pixelgenocide: assets/pixelgenocide/lang/en_us.lang
+[14:12:40] [Server thread/WARN] [FML]: Missing English translation for pokedexrewards: assets/pokedexrewards/lang/en_us.lang
+[14:12:40] [Server thread/WARN] [FML]: Missing English translation for totaleconomy: assets/totaleconomy/lang/en_us.lang
+[14:12:40] [Server thread/WARN] [FML]: Missing English translation for wondertrade: assets/wondertrade/lang/en_us.lang
+[14:12:41] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, economylite, jei, journeymap, pixelextras, pixelgenocide, pixelmon, pokedexrewards, totaleconomy, wondertrade] at CLIENT
+[14:12:41] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, economylite, jei, journeymap, pixelextras, pixelgenocide, pixelmon, pokedexrewards, totaleconomy, wondertrade] at SERVER
+[14:12:41] [Server thread/WARN] [Sponge]: There's no certificate fingerprint available
+[14:12:42] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[14:12:42] [Server thread/INFO] [FML]: Found 1169 ObjectHolder annotations
+[14:12:42] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[14:12:42] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[14:12:42] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[14:12:42] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[14:12:42] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[14:12:42] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Starting version check at https://files.minecraftforge.net/maven/org/spongepowered/spongeforge/promotions_slim.json
+[14:12:42] [Server thread/INFO] [economylite]: EconomyLite 2.15.1 is initializing!
+[14:12:42] [Server thread/INFO] [economylite]: Using currency: Coin
+[14:12:42] [Server thread/INFO] [economylite]: The SQL module is disabled!
+[14:12:42] [Server thread/INFO] [economylite]: The Loan module is disabled!
+[14:12:43] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+[14:12:43] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+[14:12:44] [Server thread/ERROR] [Sponge]: Could not pass FMLPreInitializationEvent to Plugin{id=totaleconomy, name=Total Economy, version=1.8.1, description=All in one economy plugin for Minecraft/Sponge, source=.\mods\TotalEconomy-1.8.1.jar}
 org.spongepowered.api.registry.RegistryModuleAlreadyRegisteredException: Already registered a registry module!
 	at org.spongepowered.common.registry.SpongeGameRegistry.registerModule(SpongeGameRegistry.java:229) ~[SpongeGameRegistry.class:1.12.2-2768-7.1.5]
 	at org.spongepowered.common.registry.SpongeGameRegistry.registerModule(SpongeGameRegistry.java:134) ~[SpongeGameRegistry.class:1.12.2-2768-7.1.5]
 	at com.erigitic.main.TotalEconomy.preInit(TotalEconomy.java:193) ~[TotalEconomy.class:?]
-	at org.spongepowered.common.event.listener.GamePreInitializationEventListener_TotalEconomy_preInit10.handle(Unknown Source) ~[?:?]
+	at org.spongepowered.common.event.listener.GamePreInitializationEventListener_TotalEconomy_preInit11.handle(Unknown Source) ~[?:?]
 	at org.spongepowered.common.event.RegisteredListener.handle(RegisteredListener.java:95) ~[RegisteredListener.class:1.12.2-2768-7.1.5]
 	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:383) [SpongeModEventManager.class:1.12.2-2768-7.1.5]
 	at org.spongepowered.mod.event.SpongeModEventManager.extendedPost(SpongeModEventManager.java:443) [SpongeModEventManager.class:1.12.2-2768-7.1.5]
@@ -108,77 +106,108 @@ org.spongepowered.api.registry.RegistryModuleAlreadyRegisteredException: Already
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) [nz.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
-[21:40:10] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 7.0.5
-[21:40:11] [Server thread/INFO] [Pixelmon]: Checking for migrations..
-[21:40:11] [Server thread/INFO] [Pixelmon]: Loading Advancements
-[21:40:12] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Utilities:loadDefaultCooldowns:106]: 2120447d-bb7a-49f3-83a0-aad8d4f2b7c5
-[21:40:12] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Wondertrade:preInit:53]: [Wondertrade] Successfully loaded configuration File.
-[21:40:13] [Server thread/INFO] [FML]: Applying holder lookups
-[21:40:13] [Server thread/INFO] [FML]: Holder lookups applied
-[21:40:13] [Server thread/INFO] [Pixelmon]: Loading TM/HMs.
-[21:40:13] [Server thread/INFO] [FML]: Applying holder lookups
-[21:40:13] [Server thread/INFO] [FML]: Holder lookups applied
-[21:40:13] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `sponge` for name `human`, expected `spongeforge`. This could be a intended override, but in most cases indicates a broken mod.
-[21:40:13] [Server thread/INFO] [FML]: Applying holder lookups
-[21:40:13] [Server thread/INFO] [FML]: Holder lookups applied
-[21:40:13] [Server thread/INFO] [FML]: Applying holder lookups
-[21:40:13] [Server thread/INFO] [FML]: Holder lookups applied
-[21:40:13] [Server thread/INFO] [FML]: Injecting itemstacks
-[21:40:13] [Server thread/INFO] [FML]: Itemstack injection complete
-[21:40:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[21:40:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[21:40:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[21:40:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[21:40:13] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
-[21:40:13] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:40:13] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[21:40:13] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:40:13] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:40:14] [Server thread/INFO] [FML]: Applying holder lookups
-[21:40:14] [Server thread/INFO] [FML]: Holder lookups applied
-[21:40:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ?f[?6PokeDex?f] ?ePokeDex Rewards - Loaded v0.8!
-[21:40:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ?f[?6PokeDex?f] ?eBy Xenoyia Updated by ?bFerris#0546?7(?eJirachi?7)?e with help from MageFX and XpanD!
-[21:40:14] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
-[21:40:14] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
-[21:40:14] [Server thread/INFO] [Pixelmon]: Registering shop items.
-[21:40:14] [Server thread/INFO] [Pixelmon]: Registering NPCs.
-[21:40:14] [Server thread/INFO] [Pixelmon]: Registered NPC trades.
-[21:40:14] [Server thread/INFO] [Pixelmon]: Registering structures.
-[21:40:17] [Server thread/INFO] [Pixelmon]: Registering drops.
-[21:40:17] [Server thread/INFO] [Pixelmon]: Registering Pokémon drops.
-[21:40:18] [Server thread/INFO] [Pixelmon]: Registering battle rules.
-[21:40:26] [Server thread/INFO] [FML]: Injecting itemstacks
-[21:40:26] [Server thread/INFO] [FML]: Itemstack injection complete
-[21:40:26] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
-[21:40:27] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 15 mods
-[21:40:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[21:40:27] [Server thread/INFO] [Sponge]: Checking for worlds that need to be migrated...
-[21:40:27] [Server thread/INFO] [Sponge]: No worlds were found in need of migration.
-[21:40:27] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[21:40:28] [Server thread/INFO] [FML]: Applying holder lookups
-[21:40:28] [Server thread/INFO] [FML]: Holder lookups applied
-[21:40:29] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 703 advancements
-[21:40:29] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 111 advancement trees
-[21:40:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0 (world)
-[21:40:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 37%
-[21:40:30] [Server thread/INFO] [Sponge]: Loading world [world] (overworld)
-[21:40:31] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 703 advancements
-[21:40:31] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 111 advancement trees
-[21:40:31] [Server thread/INFO] [Sponge]: Loading world [DIM-1] (the_nether)
-[21:40:31] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 703 advancements
-[21:40:31] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 111 advancement trees
-[21:40:31] [Server thread/INFO] [Sponge]: Loading world [DIM1] (the_end)
-[21:40:31] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 703 advancements
-[21:40:31] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 111 advancement trees
-[21:40:31] [Server thread/INFO] [Sponge]: Loading world [ultra] (ultra_space)
-[21:40:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (3,905s)! For help, type "help" or "?"
-[21:40:31] [Server thread/INFO] [totaleconomy]: Total Economy Started
-[21:40:54] [Netty Server IO #2/INFO] [FML]: Client protocol version 2
-[21:40:54] [Netty Server IO #2/INFO] [FML]: Client attempting to join with 15 mods : minecraft@1.12.2,sponge@1.12.2-7.1.5,FML@8.0.99.99,spongeapi@7.1.0-366290f8,totaleconomy@1.8.1,pokedexrewards@0.8,pixelextras@2.4.2,jei@4.15.0.268,economylite@2.15.1,wondertrade@4.6.0,spongeforge@1.12.2-2768-7.1.5,forge@14.23.5.2811,mcp@9.42,journeymap@1.12.2-5.5.3,pixelmon@7.0.5
-[21:40:54] [Netty Server IO #2/INFO] [journeymap]: CLIENT
-[21:40:55] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[21:40:55] [Server thread/INFO] [journeymap]: Andre joining dimension 0
-[21:40:55] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
+[14:12:44] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 7.0.5
+[14:12:44] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Found status: OUTDATED Target: 7.1.2
+[14:12:44] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
+[14:12:45] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: UP_TO_DATE Target: null
+[14:12:45] [Server thread/INFO] [Pixelmon]: Checking for migrations..
+[14:12:45] [Server thread/INFO] [Pixelmon]: Loading Advancements
+[14:12:46] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Utilities:loadDefaultCooldowns:106]: fcb4bb01-21cc-3ac0-b815-9fd2a5285e32
+[14:12:46] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Utilities:loadDefaultCooldowns:106]: f9d371f4-5c26-3c9b-8f6f-fdbe7e3170f2
+[14:12:46] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Utilities:loadDefaultCooldowns:106]: 2120447d-bb7a-49f3-83a0-aad8d4f2b7c5
+[14:12:46] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Wondertrade:preInit:53]: [Wondertrade] Successfully loaded configuration File.
+[14:12:47] [Server thread/INFO] [FML]: Applying holder lookups
+[14:12:47] [Server thread/INFO] [FML]: Holder lookups applied
+[14:12:47] [Server thread/INFO] [Pixelmon]: Loading TM/HMs.
+[14:12:47] [Server thread/INFO] [FML]: Applying holder lookups
+[14:12:47] [Server thread/INFO] [FML]: Holder lookups applied
+[14:12:47] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `sponge` for name `human`, expected `spongeforge`. This could be a intended override, but in most cases indicates a broken mod.
+[14:12:47] [Server thread/INFO] [FML]: Applying holder lookups
+[14:12:47] [Server thread/INFO] [FML]: Holder lookups applied
+[14:12:47] [Server thread/INFO] [FML]: Applying holder lookups
+[14:12:47] [Server thread/INFO] [FML]: Holder lookups applied
+[14:12:47] [Server thread/INFO] [FML]: Injecting itemstacks
+[14:12:47] [Server thread/INFO] [FML]: Itemstack injection complete
+[14:12:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[14:12:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[14:12:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[14:12:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[14:12:47] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[14:12:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:12:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[14:12:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:12:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:12:48] [Server thread/INFO] [FML]: Applying holder lookups
+[14:12:48] [Server thread/INFO] [FML]: Holder lookups applied
+[14:12:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ?f[?6PokeDex?f] ?ePokeDex Rewards - Loaded v0.8!
+[14:12:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ?f[?6PokeDex?f] ?eBy Xenoyia Updated by ?bFerris#0546?7(?eJirachi?7)?e with help from MageFX and XpanD!
+[14:12:48] [Server thread/INFO] [PixelGenocide]: PixelGenocide by happyzleaf loaded! (http://www.happyzleaf.com/)
+[14:12:48] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[14:12:48] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[14:12:48] [Server thread/INFO] [Pixelmon]: Registering shop items.
+[14:12:48] [Server thread/INFO] [Pixelmon]: Registering NPCs.
+[14:12:48] [Server thread/INFO] [Pixelmon]: Registered NPC trades.
+[14:12:48] [Server thread/INFO] [Pixelmon]: Registering structures.
+[14:12:51] [Server thread/INFO] [Pixelmon]: Registering drops.
+[14:12:51] [Server thread/INFO] [Pixelmon]: Registering Pokémon drops.
+[14:12:51] [Server thread/INFO] [Pixelmon]: Registering battle rules.
+[14:12:57] [Server thread/INFO] [FML]: Injecting itemstacks
+[14:12:57] [Server thread/INFO] [FML]: Itemstack injection complete
+[14:12:57] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
+[14:12:58] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 16 mods
+[14:12:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[14:12:58] [Server thread/INFO] [Sponge]: Checking for worlds that need to be migrated...
+[14:12:58] [Server thread/INFO] [Sponge]: No worlds were found in need of migration.
+[14:12:58] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[14:12:59] [Server thread/INFO] [FML]: Applying holder lookups
+[14:12:59] [Server thread/INFO] [FML]: Holder lookups applied
+[14:13:00] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 703 advancements
+[14:13:00] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 111 advancement trees
+[14:13:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0 (world)
+[14:13:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 48%
+[14:13:01] [Server thread/INFO] [Sponge]: Loading world [world] (overworld)
+[14:13:02] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 703 advancements
+[14:13:02] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 111 advancement trees
+[14:13:02] [Server thread/INFO] [Sponge]: Loading world [DIM-1] (the_nether)
+[14:13:02] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 703 advancements
+[14:13:02] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 111 advancement trees
+[14:13:02] [Server thread/INFO] [Sponge]: Loading world [DIM1] (the_end)
+[14:13:02] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 703 advancements
+[14:13:02] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 111 advancement trees
+[14:13:02] [Server thread/INFO] [Sponge]: Loading world [ultra] (ultra_space)
+[14:13:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (4.159s)! For help, type "help" or "?"
+[14:13:03] [Server thread/INFO] [totaleconomy]: Total Economy Started
+[14:13:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:13:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:13:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:13:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:13:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:13:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:14:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:14:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:14:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:14:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:14:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:14:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:15:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:15:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:15:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:15:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:15:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:15:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:16:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:16:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:16:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:16:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:16:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:17:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:17:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:17:17] [Netty Server IO #2/INFO] [FML]: Client protocol version 2
+[14:17:17] [Netty Server IO #2/INFO] [FML]: Client attempting to join with 16 mods : minecraft@1.12.2,sponge@1.12.2-7.1.5,FML@8.0.99.99,spongeapi@7.1.0-366290f8,pixelgenocide@1.0.4,totaleconomy@1.8.1,pokedexrewards@0.8,pixelextras@2.4.2,jei@4.15.0.268,economylite@2.15.1,wondertrade@4.6.0,spongeforge@1.12.2-2768-7.1.5,forge@14.23.5.2768,mcp@9.42,journeymap@1.12.2-5.5.3,pixelmon@7.0.5
+[14:17:17] [Netty Server IO #2/INFO] [journeymap]: CLIENT
+[14:17:17] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[14:17:17] [Server thread/INFO] [journeymap]: Mr.Jack joining dimension 0
+[14:17:17] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
 io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
 	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
@@ -216,233 +245,79 @@ Caused by: java.lang.RuntimeException: Undefined discriminator for message type 
 	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
 	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
 	... 30 more
-[21:40:55] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Andre[/127.0.0.1:53137] logged in with entity id 8 in world(0) at (-11979.37583956932, 63.0, 8383.496382325597)
-[21:40:56] [Server thread/INFO] [journeymap]: Sending log in packet.
-[21:40:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Andre joined the game
-[21:41:08] [Netty Server IO #4/INFO] [FML]: Client protocol version 2
-[21:41:08] [Netty Server IO #4/INFO] [FML]: Client attempting to join with 15 mods : minecraft@1.12.2,sponge@1.12.2-7.1.5,FML@8.0.99.99,spongeapi@7.1.0-366290f8,totaleconomy@1.8.1,pokedexrewards@0.8,pixelextras@2.4.2,jei@4.15.0.268,economylite@2.15.1,wondertrade@4.6.0,spongeforge@1.12.2-2768-7.1.5,forge@14.23.5.2768,mcp@9.42,journeymap@1.12.2-5.5.3,pixelmon@7.0.5
-[21:41:08] [Netty Server IO #4/INFO] [journeymap]: CLIENT
-[21:41:09] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[21:41:09] [Server thread/INFO] [journeymap]: Mr.Jack joining dimension 0
-[21:41:09] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
-io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
-	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
-	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
-	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
-	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
-	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
-	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
-	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
-	at net.minecraft.server.management.PlayerList.handler$playerLoggedIn2$zjn000(PlayerList.java:2055) [pl.class:?]
-	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:368) [pl.class:?]
-	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1592) [pl.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
-	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
-	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
-Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
-	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
-	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
-	... 30 more
-[21:41:09] [Server thread/WARN] [io.netty.channel.embedded.EmbeddedChannel]: More than one exception was raised. Will report only the first one and log others.
-io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
-	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
-	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
-	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
-	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
-	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
-	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
-	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
-	at net.minecraft.server.management.PlayerList.handler$playerLoggedIn2$zjn000(PlayerList.java:2055) [pl.class:?]
-	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:368) [pl.class:?]
-	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1592) [pl.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
-	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
-	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
-Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
-	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
-	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
-	... 30 more
-[21:41:09] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Mr.Jack[/25.90.59.187:65035] logged in with entity id 96 in world(0) at (-6347.526813871098, 69.0, -4423.562706719632)
-[21:41:09] [Server thread/INFO] [journeymap]: Sending log in packet.
-[21:41:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack joined the game
-[21:41:59] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Andre lost connection: Disconnected
-[21:41:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Andre left the game
-[21:43:10] [Netty Server IO #7/INFO] [FML]: Client protocol version 2
-[21:43:10] [Netty Server IO #7/INFO] [FML]: Client attempting to join with 15 mods : minecraft@1.12.2,sponge@1.12.2-7.1.5,FML@8.0.99.99,spongeapi@7.1.0-366290f8,totaleconomy@1.8.1,pokedexrewards@0.8,pixelextras@2.4.2,jei@4.15.0.268,economylite@2.15.1,wondertrade@4.6.0,spongeforge@1.12.2-2768-7.1.5,forge@14.23.5.2811,mcp@9.42,journeymap@1.12.2-5.5.3,pixelmon@7.0.5
-[21:43:10] [Netty Server IO #7/INFO] [journeymap]: CLIENT
-[21:43:11] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[21:43:11] [Server thread/INFO] [journeymap]: Andre joining dimension 0
-[21:43:11] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
-io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
-	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
-	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
-	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
-	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
-	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
-	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
-	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
-	at net.minecraft.server.management.PlayerList.handler$playerLoggedIn2$zjn000(PlayerList.java:2055) [pl.class:?]
-	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:368) [pl.class:?]
-	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1592) [pl.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
-	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
-	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
-Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
-	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
-	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
-	... 30 more
-[21:43:11] [Server thread/WARN] [io.netty.channel.embedded.EmbeddedChannel]: More than one exception was raised. Will report only the first one and log others.
-io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
-	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
-	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
-	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
-	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_52_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
-	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
-	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
-	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
-	at net.minecraft.server.management.PlayerList.handler$playerLoggedIn2$zjn000(PlayerList.java:2055) [pl.class:?]
-	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:368) [pl.class:?]
-	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1592) [pl.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
-	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
-	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
-Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
-	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
-	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
-	... 30 more
-[21:43:11] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Andre[/127.0.0.1:53185] logged in with entity id 335 in world(0) at (-6402.551076802225, 83.0, -4439.8475669132995)
-[21:43:11] [Server thread/INFO] [journeymap]: Sending log in packet.
-[21:43:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Andre joined the game
-[21:54:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Teleported Mr.Jack to Andre]
-[21:57:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Groudon has spawned in a DesertHills biome!
-[21:57:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Groudon at: world x:-6356, y:85, z:-4600
-[21:57:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack has made the advancement [Ground smasher!]
-[22:12:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Given [Oak Wood Planks] * 1 to Mr.Jack]
-[22:12:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Given [Oak Wood Planks] * 64 to Mr.Jack]
-[22:14:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Keldeo has spawned in a River biome!
-[22:14:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Keldeo at: world x:-862, y:63, z:-110
-[22:28:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Given [Golden Carrot] * 64 to Andre]
-[22:29:45] [Server thread/WARN] [Sponge]: Entity being removed for bounding box restrictions
-[22:29:45] [Server thread/WARN] [Sponge]: BB Size: 1.008 > 1.000 avg edge: 9,007
-[22:29:45] [Server thread/WARN] [Sponge]: Motion: (-0,004, -0,035, 0,086)
-[22:29:45] [Server thread/WARN] [Sponge]: Calculated bounding box: box[-1245.003523098072, 55.96508217230439, 651.9205894231206 -> -1234.079999923706, 61.05600001239776, 662.9265166752674]
-[22:29:45] [Server thread/WARN] [Sponge]: Entity bounding box: null
-[22:29:45] [Server thread/WARN] [Sponge]: Entity: EntityPixelmon['Kyogre'/4982, l='world', x=-1239,54, y=56,00, z=657,38]
-[22:29:45] [Server thread/WARN] [Sponge]: Entity NBT: {EVSpeed:0s,PixelmonMovePPBase3:20b,PixelmonMovePPBase2:10b,PixelmonMovePPBase1:20b,PixelmonMovePPBase0:5b,Attributes:[{Base:133.0d,Name:"generic.maxHealth"},{Base:0.0d,Name:"generic.knockbackResistance"},{Base:0.55d,Name:"generic.movementSpeed"},{Base:0.0d,Name:"generic.armor"},{Base:0.0d,Name:"generic.armorToughness"},{Base:1.0d,Name:"forge.swimSpeed"},{Base:16.0d,Name:"generic.followRange"}],Invulnerable:0b,Gender:2b,Name:"Kyogre",IVDefence:3b,IVSpDef:31b,CaughtBall:0b,PersistenceRequired:0b,DoesLevel:1b,PixelmonMoveID1:213s,OwnerUUID:"",PixelmonMoveID0:320s,EVSpecialAttack:0s,Pos:[-1239.539999961853d,56.0d,657.3805894612676d],IVSpeed:12b,pixelmonType:3b,Level:41,EVDefence:0s,IVAttack:31b,Growth:6b,PixelmonMovePPMax1:32b,PixelmonMovePPMax2:16b,PixelmonMovePPMax3:32b,PersistentData:{SpongeData:{CanGrief:1b,maxAir:300}},EVSpecialDefence:0s,StatsSpecialDefence:162s,PixelmonMoveID3:429s,PixelmonMovePPMax0:8b,PixelmonMoveID2:47s,isInRanch:0b,Friendship:0s,StatsDefence:80s,EVAttack:0s,StatsSpecialAttack:165s,IVHP:0b,AbilitySlot:0b,EVHP:0s,ndex:382s,Nature:23b,Motion:[-0.003523098072037101d,-0.03491782769560814d,0.0859271758528574d],StatsHP:133s,UUIDLeast:-6955673358273901788L,Health:133,Aggression:0b,OnGround:1b,Dimension:0,Rotation:[10.150712f,0.0f],StatsSpeed:74s,IsShiny:1b,PixelmonMovePP3:20b,StatsAttack:140s,UUIDMost:-2451822551399839889L,PixelmonMovePP2:10b,PixelmonMovePP1:20b,PixelmonMovePP0:5b,Fire:0s,PixelmonNumberMoves:4b,IVSpAtt:31b,EXP:0}
-[22:29:45] [Server thread/WARN] [Sponge]: Entity being removed for bounding box restrictions
-[22:29:45] [Server thread/WARN] [Sponge]: BB Size: 1.008 > 1.000 avg edge: 9,008
-[22:29:45] [Server thread/WARN] [Sponge]: Motion: (-0,003, -0,048, 0,077)
-[22:29:45] [Server thread/WARN] [Sponge]: Calculated bounding box: box[-1245.0066938862528, 55.91714790973165, 652.0065165989735 -> -1234.083523021778, 61.02108218470215, 663.0038511314863]
-[22:29:45] [Server thread/WARN] [Sponge]: Entity bounding box: null
-[22:29:45] [Server thread/WARN] [Sponge]: Entity: EntityPixelmon['Kyogre'/4982, l='world', x=-1239,54, y=55,97, z=657,47]
-[22:29:45] [Server thread/WARN] [Sponge]: Entity NBT: {EVSpeed:0s,PixelmonMovePPBase3:20b,PixelmonMovePPBase2:10b,PixelmonMovePPBase1:20b,PixelmonMovePPBase0:5b,Attributes:[{Base:133.0d,Name:"generic.maxHealth"},{Base:0.0d,Name:"generic.knockbackResistance"},{Base:0.55d,Name:"generic.movementSpeed"},{Base:0.0d,Name:"generic.armor"},{Base:0.0d,Name:"generic.armorToughness"},{Base:1.0d,Name:"forge.swimSpeed"},{Base:16.0d,Name:"generic.followRange"}],Invulnerable:0b,Gender:2b,Name:"Kyogre",FallDistance:0.034917828f,IVDefence:3b,IVSpDef:31b,CaughtBall:0b,PersistenceRequired:0b,DoesLevel:1b,PixelmonMoveID1:213s,OwnerUUID:"",PixelmonMoveID0:320s,EVSpecialAttack:0s,Pos:[-1239.543523059925d,55.96508217230439d,657.4665166371204d],IVSpeed:12b,pixelmonType:3b,Level:41,EVDefence:0s,IVAttack:31b,Growth:6b,PixelmonMovePPMax1:32b,PixelmonMovePPMax2:16b,PixelmonMovePPMax3:32b,PersistentData:{SpongeData:{CanGrief:1b,maxAir:300}},EVSpecialDefence:0s,StatsSpecialDefence:162s,PixelmonMoveID3:429s,PixelmonMovePPMax0:8b,PixelmonMoveID2:47s,isInRanch:0b,Friendship:0s,StatsDefence:80s,EVAttack:0s,StatsSpecialAttack:165s,IVHP:0b,AbilitySlot:0b,EVHP:0s,ndex:382s,Nature:23b,Motion:[-0.003170788180836187d,-0.04793426257273946d,0.07733445621890815d],StatsHP:133s,UUIDLeast:-6955673358273901788L,Health:133,Aggression:0b,OnGround:0b,Dimension:0,Rotation:[10.150712f,0.0f],StatsSpeed:74s,IsShiny:1b,PixelmonMovePP3:20b,StatsAttack:140s,UUIDMost:-2451822551399839889L,PixelmonMovePP2:10b,PixelmonMovePP1:20b,PixelmonMovePP0:5b,PixelmonNumberMoves:4b,IVSpAtt:31b,EXP:0}
-[22:33:11] [Server thread/ERROR] [Pixelmon]: Invalid item ID found in SpawnInfo: pixelmon:satchet is not a recognized item.
-[22:39:31] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [630, 368] in dimension 0 (overworld) while populating chunk [629, 368], causing cascading worldgen lag.
-[22:39:31] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[22:39:33] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [630, 367] in dimension 0 (overworld) while populating chunk [629, 366], causing cascading worldgen lag.
-[22:39:33] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[22:39:33] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [630, 366] in dimension 0 (overworld) while populating chunk [629, 366], causing cascading worldgen lag.
-[22:39:33] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[22:40:41] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: This server is running Wondertrade by GhostWolf!
-[22:40:41] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: For a tutorial see: https://www.youtube.com/ghostwolfgames
-[22:40:41] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Current Wondertrade pool contains: 100 Pixelmon
-[22:40:41] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Try your luck at getting it with /wondertrade
-[22:42:51] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Mr.Jack moved too quickly! 0.0,-28.58468261210355,0.0
-[22:51:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: This server is running Wondertrade by GhostWolf!
-[22:51:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: For a tutorial see: https://www.youtube.com/ghostwolfgames
-[22:51:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Current Wondertrade pool contains: 100 Pixelmon
-[22:51:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Try your luck at getting it with /wondertrade
-[23:16:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Virizion has spawned in a ForestHills biome!
-[23:16:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Virizion at: world x:-911, y:72, z:-73
-[23:21:11] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Andre moved too quickly! 0.0,-15.114386650907406,0.0
-[23:22:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Server] This is an example command reward! Mr.Jack can be used as a placeholder!
-[23:24:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Given [Bone] * 64 to Andre]
-[23:30:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Teleported Andre to Mr.Jack]
-[23:35:25] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Mr.Jack lost connection: Disconnected
-[23:35:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack left the game
-[23:38:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Given [Hondew Berry] * 10 to Andre]
-[23:39:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Given [Hondew Berry] * 10 to Andre]
-[23:40:41] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: This server is running Wondertrade by GhostWolf!
-[23:40:41] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: For a tutorial see: https://www.youtube.com/ghostwolfgames
-[23:40:41] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Current Wondertrade pool contains: 100 Pixelmon
-[23:40:41] [Timer-2/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Try your luck at getting it with /wondertrade
-[23:40:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Given [Pomeg Berry] * 10 to Andre]
-[23:49:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Andre: Given [Hondew Berry] * 10 to Andre]
-[23:50:28] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Andre lost connection: Disconnected
-[23:50:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Andre left the game
+[14:17:17] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Mr.Jack[/25.90.59.187:57594] logged in with entity id 8 in world(0) at (-893.9913321368169, 72.0, -167.14947714970975)
+[14:17:18] [Server thread/INFO] [journeymap]: Sending log in packet.
+[14:17:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack joined the game
+[14:17:20] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2041ms behind, skipping 40 tick(s)
+[14:17:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:17:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:17:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:17:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:17:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:17:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:17:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:17:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:18:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:18:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:18:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:18:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:18:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:18:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:18:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:18:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:18:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:18:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:18:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:18:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:19:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:19:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:19:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:19:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:19:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:19:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:19:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:19:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:19:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:19:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:19:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:19:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:20:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:20:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:20:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:20:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:20:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:20:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:20:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:20:35] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [7, -18] in dimension 0 (overworld) while populating chunk [6, -18], causing cascading worldgen lag.
+[14:20:35] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[14:20:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:20:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:20:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:20:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:20:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:21:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:21:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:21:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:21:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:21:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:21:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:21:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:21:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:21:37] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Mr.Jack lost connection: Disconnected
+[14:21:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack left the game
+[14:21:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:21:51] [Server thread/INFO] [totaleconomy]: Total Economy Stopping
+[14:21:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[14:21:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[14:21:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[14:21:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[14:21:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM-1'/the_nether
+[14:21:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM1'/the_end
+[14:21:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ultra'/ultra_space
+[14:21:51] [Server thread/INFO] [Sponge]: Unloading world [world] (DIM0)
+[14:21:51] [Server thread/INFO] [Sponge]: Unloading world [DIM-1] (DIM-1)
+[14:21:51] [Server thread/INFO] [Sponge]: Unloading world [DIM1] (DIM1)
+[14:21:51] [Server thread/INFO] [Sponge]: Unloading world [ultra] (DIM72)
+[14:21:51] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown initiated...
+[14:21:51] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown completed.
+[14:21:52] [Server thread/INFO] [totaleconomy]: Total Economy Stopped
