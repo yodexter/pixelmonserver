@@ -11,6 +11,12 @@
     },
     "done": true
   },
+  "pixelmon:wild_battle_victories/wild_battle_victory_1000": {
+    "criteria": {
+      "wild_battle_victory_1000": "2019-04-08 20:25:25 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_sand": "2019-04-07 00:07:18 -0300"
@@ -184,6 +190,12 @@
   "minecraft:recipes/building_blocks/brown_concrete_powder": {
     "criteria": {
       "has_sand": "2019-04-07 00:07:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2019-04-08 20:44:38 -0300"
     },
     "done": true
   },
