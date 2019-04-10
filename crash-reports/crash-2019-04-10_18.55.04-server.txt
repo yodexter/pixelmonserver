@@ -1,0 +1,89 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  SpongeCoremod (spongeforge-1.12.2-2768-7.1.5.jar)
+Contact their authors BEFORE contacting forge
+
+// Everything's going to plan. No, really, that was supposed to happen.
+
+Time: 4/10/19 6:55 PM
+Description: Exception in server tick loop
+
+Missing Mods:
+	unknown : need any: have missing
+
+Missing Mods:
+	unknown : need 7.0.0: have missing
+
+Missing Mods:
+	unknown : need any: have missing
+
+Missing Mods:
+	unknown : need any: have missing
+
+net.minecraftforge.fml.common.MultipleModsErrored
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:298)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:570)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:298)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:570)
+
+-- Sponge PhaseTracker --
+Details:
+	Phase Stack: [Empty stack]
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.handler$onCrashReport$zjm000(MinecraftServer.java:3973)
+	at net.minecraft.server.MinecraftServer.func_71230_b(MinecraftServer.java:889)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71230_b(DedicatedServer.java:371)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:558)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_201, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 2416350208 bytes (2304 MB) / 3079143424 bytes (2936 MB) up to 3079143424 bytes (2936 MB)
+	JVM Flags: 2 total; -Xmx3072M -Xms3072M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2825 16 mods loaded, 16 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID             | Version           | Source                                       | Signature                                |
+	|:----- |:-------------- |:----------------- |:-------------------------------------------- |:---------------------------------------- |
+	| L     | minecraft      | 1.12.2            | minecraft.jar                                | None                                     |
+	| L     | mcp            | 9.42              | minecraft.jar                                | None                                     |
+	| L     | FML            | 8.0.99.99         | server.jar                                   | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | forge          | 14.23.5.2825      | server.jar                                   | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | spongeapi      | 7.1.0-366290f8    | spongeforge-1.12.2-2768-7.1.5.jar            | None                                     |
+	| L     | sponge         | 1.12.2-7.1.5      | spongeforge-1.12.2-2768-7.1.5.jar            | None                                     |
+	| L     | spongeforge    | 1.12.2-2768-7.1.5 | spongeforge-1.12.2-2768-7.1.5.jar            | None                                     |
+	| L     | economylite    | 2.15.1            | EconomyLite-7.1.0-2.15.1.jar                 | None                                     |
+	| L     | jei            | 4.15.0.268        | jei_1.12.2-4.15.0.268.jar                    | None                                     |
+	| L     | journeymap     | 1.12.2-5.5.3      | journeymap-1.12.2-5.5.3.jar                  | None                                     |
+	| L     | pixelextras    | 2.4.2             | PixelExtras-1.12.2-2.4.2-universal.jar       | None                                     |
+	| L     | pixelgenocide  | 1.0.4             | PixelGenocide-1.0.4.jar                      | None                                     |
+	| L     | pokedexrewards | 0.8               | PokedexRewards-0.8-MC1.12.2-F2611-S7.1.0.jar | None                                     |
+	| L     | projecte       | 1.12.2-PE1.4.0    | ProjectE-1.12.2-PE1.4.0.jar                  | None                                     |
+	| L     | totaleconomy   | 1.8.1             | TotalEconomy-1.8.1.jar                       | None                                     |
+	| L     | wondertrade    | 4.6.0             | WonderTrade-1.12.2-4.6.0-universal.jar       | None                                     |
+
+	Loaded coremods (and transformers): 
+SpongeCoremod (spongeforge-1.12.2-2768-7.1.5.jar)
+  org.spongepowered.common.launch.transformer.SpongeSuperclassTransformer
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge,sponge'
+	Type: Dedicated Server (map_server.txt)
