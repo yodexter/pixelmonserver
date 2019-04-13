@@ -867,6 +867,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2019-04-13 12:48:56 -0300"
+    },
+    "done": true
+  },
   "pixelmon:legendaries/rayquaza_capture_trigger": {
     "criteria": {
       "rayquaza_capture": "2019-04-07 13:46:21 -0300"
@@ -888,6 +894,12 @@
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2019-04-13 02:00:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2019-04-13 12:48:56 -0300"
     },
     "done": true
   },
