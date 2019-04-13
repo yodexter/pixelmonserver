@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "pixelmon:wild_battle_victories/wild_battle_victory_1000": {
+    "criteria": {
+      "wild_battle_victory_1000": "2019-04-12 23:40:45 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_sand": "2019-04-07 01:31:38 -0300"
@@ -32,6 +38,12 @@
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2019-04-07 01:39:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_double_plant": "2019-04-12 21:33:17 -0300"
     },
     "done": true
   },
@@ -185,6 +197,12 @@
     },
     "done": true
   },
+  "minecraft:end/levitate": {
+    "criteria": {
+      "levitated": "2019-04-12 22:58:44 -0300"
+    },
+    "done": true
+  },
   "pixelmon:recipes/decorative/green_rug": {
     "criteria": {
       "has_wool": "2019-04-08 19:03:54 -0300"
@@ -315,7 +333,9 @@
     "criteria": {
       "cooked_beef": "2019-04-06 22:23:05 -0300",
       "beef": "2019-04-09 21:22:59 -0300",
-      "porkchop": "2019-04-09 21:32:31 -0300"
+      "porkchop": "2019-04-09 21:32:31 -0300",
+      "mutton": "2019-04-12 21:37:38 -0300",
+      "cooked_chicken": "2019-04-12 22:17:07 -0300"
     },
     "done": false
   },
@@ -747,6 +767,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "shulker": "2019-04-12 22:55:12 -0300",
       "zombie_villager": "2019-04-07 19:48:29 -0300"
     },
     "done": false
@@ -796,6 +817,12 @@
   "minecraft:recipes/building_blocks/gray_stained_hardened_clay": {
     "criteria": {
       "has_hardened_clay": "2019-04-07 23:13:11 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:balls/friend_ball_capture": {
+    "criteria": {
+      "friend_ball_capture": "2019-04-13 00:31:42 -0300"
     },
     "done": true
   },
@@ -865,6 +892,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_double_plant": "2019-04-12 22:35:44 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/yellow_stained_hardened_clay": {
     "criteria": {
       "has_hardened_clay": "2019-04-07 23:13:11 -0300"
@@ -907,6 +940,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2019-04-13 00:36:57 -0300"
+    },
+    "done": true
+  },
   "pixelmon:recipes/decorative/blue_rug": {
     "criteria": {
       "has_wool": "2019-04-08 19:03:54 -0300"
@@ -922,6 +961,12 @@
   "pixelmon:wild_battle_victories/wild_battle_victory_trigger": {
     "criteria": {
       "wild_battle_victory_trigger": "2019-04-06 21:55:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_red_flower": "2019-04-13 00:38:46 -0300"
     },
     "done": true
   },
@@ -1048,6 +1093,12 @@
   "minecraft:recipes/building_blocks/glowstone": {
     "criteria": {
       "has_glowstone_dust": "2019-04-07 21:13:59 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2019-04-13 00:54:14 -0300"
     },
     "done": true
   },
@@ -1247,6 +1298,8 @@
       "savanna_rock": "2019-04-07 20:52:57 -0300",
       "ice_mountains": "2019-04-07 01:38:07 -0300",
       "taiga": "2019-04-07 17:17:30 -0300",
+      "redwood_taiga": "2019-04-13 00:06:17 -0300",
+      "redwood_taiga_hills": "2019-04-13 00:05:41 -0300",
       "birch_forest_hills": "2019-04-06 22:37:12 -0300",
       "taiga_cold": "2019-04-07 01:34:25 -0300",
       "ocean": "2019-04-07 01:34:14 -0300",
@@ -1446,6 +1499,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_stone": "2019-04-13 00:54:14 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_wool": {
     "criteria": {
       "has_white_wool": "2019-04-08 19:03:54 -0300"
@@ -1485,6 +1544,12 @@
   "minecraft:recipes/redstone/wooden_door": {
     "criteria": {
       "has_planks": "2019-04-06 22:46:54 -0300"
+    },
+    "done": true
+  },
+  "pixelmon:legendaries/raikou_capture_trigger": {
+    "criteria": {
+      "raikou_capture": "2019-04-13 00:43:38 -0300"
     },
     "done": true
   },
