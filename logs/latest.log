@@ -1,85 +1,85 @@
-[18:39:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[18:39:37] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[18:39:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[18:39:37] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2825 for Minecraft 1.12.2 loading
-[18:39:37] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_201, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_201
-[18:39:38] [main/INFO] [FML]: Searching C:\Users\gusta\Documents\Pixelmon Server\pixelmonserver\.\mods for mods
-[18:39:38] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12.2-2768-7.1.5.jar
-[18:39:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:39:38] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[18:39:38] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/C:/Users/gusta/Documents/Pixelmon%20Server/pixelmonserver/./mods/spongeforge-1.12.2-2768-7.1.5.jar Service=LaunchWrapper Env=SERVER
-[18:39:38] [main/WARN] [FML]: The coremod SpongeCoremod (org.spongepowered.mod.SpongeCoremod) is not signed!
-[18:39:38] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[18:39:38] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[DEFAULT]
-[18:39:38] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[PREINIT]
-[18:39:38] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[INIT]
-[18:39:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[18:39:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:39:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:39:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:39:39] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[18:39:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:39:39] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[18:39:39] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@4cbd03e7
-[18:39:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[18:39:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[18:39:40] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[18:39:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[18:39:40] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[18:39:45] [main/WARN] [mixin]: Static binding violation: PRIVATE overwrite method initializeConnectionToPlayer in mixins.common.core.json:server.MixinPlayerList cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[18:39:45] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[18:39:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[18:39:51] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2825 Initialized
-[18:39:51] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[18:39:51] [Server thread/INFO] [FML]: Replaced 1036 ore ingredients
-[18:39:51] [Server thread/INFO] [Sponge]: Found mcmod.info at jar:file:/C:/Users/gusta/Documents/Pixelmon%20Server/pixelmonserver/./mods/spongeforge-1.12.2-2768-7.1.5.jar!/mcmod.info
-[18:39:51] [Server thread/INFO] [Sponge]: Creating injector in stage 'PRODUCTION'
-[18:39:55] [Server thread/INFO] [FML]: Searching C:\Users\gusta\Documents\Pixelmon Server\pixelmonserver\.\mods for mods
-[18:39:56] [Server thread/INFO] [FML]: Forge Mod Loader has identified 17 mods to load
-[18:39:56] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[18:39:56] [Server thread/WARN] [FML]: Missing English translation for spongeapi: assets/spongeapi/lang/en_us.lang
-[18:39:56] [Server thread/WARN] [FML]: Missing English translation for spongeforge: assets/spongeforge/lang/en_us.lang
-[18:39:56] [Server thread/WARN] [FML]: Missing English translation for economylite: assets/economylite/lang/en_us.lang
-[18:39:56] [Server thread/WARN] [FML]: Missing English translation for pixelextras: assets/pixelextras/lang/en_us.lang
-[18:39:56] [Server thread/WARN] [FML]: Missing English translation for pixelgenocide: assets/pixelgenocide/lang/en_us.lang
-[18:39:57] [Server thread/WARN] [FML]: Missing English translation for pokedexrewards: assets/pokedexrewards/lang/en_us.lang
-[18:39:57] [Server thread/WARN] [FML]: Missing English translation for totaleconomy: assets/totaleconomy/lang/en_us.lang
-[18:39:57] [Server thread/WARN] [FML]: Missing English translation for wondertrade: assets/wondertrade/lang/en_us.lang
-[18:39:57] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, economylite, jei, journeymap, pixelextras, pixelgenocide, pixelmon, pokedexrewards, projecte, totaleconomy, wondertrade] at CLIENT
-[18:39:57] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, economylite, jei, journeymap, pixelextras, pixelgenocide, pixelmon, pokedexrewards, projecte, totaleconomy, wondertrade] at SERVER
-[18:39:57] [Server thread/WARN] [Sponge]: There's no certificate fingerprint available
-[18:39:58] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[18:39:58] [Server thread/INFO] [FML]: Found 1169 ObjectHolder annotations
-[18:39:58] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[18:39:58] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[18:39:58] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[18:39:58] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Starting version check at https://files.minecraftforge.net/maven/org/spongepowered/spongeforge/promotions_slim.json
-[18:39:58] [Server thread/INFO] [economylite]: EconomyLite 2.15.1 is initializing!
-[18:39:58] [Server thread/INFO] [economylite]: Using currency: Coin
-[18:39:58] [Server thread/INFO] [economylite]: The SQL module is disabled!
-[18:39:58] [Server thread/INFO] [economylite]: The Loan module is disabled!
-[18:39:58] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
-[18:39:59] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Found status: OUTDATED Target: 7.1.2
-[18:39:59] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[18:39:59] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
-[18:39:59] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2836
-[18:39:59] [Forge Version Check/INFO] [forge.VersionCheck]: [projecte] Starting version check at https://raw.githubusercontent.com/sinkillerj/ProjectE/mc1.12.x/update.json
-[18:39:59] [Server thread/ERROR] [Sponge]: Could not pass FMLPreInitializationEvent to Plugin{id=economylite, name=EconomyLite, version=2.15.1, description=An economy plugin for Sponge., source=.\mods\EconomyLite-7.1.0-2.15.1.jar}
+[14:03:56] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[14:03:56] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[14:03:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[14:03:56] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2825 for Minecraft 1.12.2 loading
+[14:03:56] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_211, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_211
+[14:03:56] [main/INFO] [FML]: Searching C:\Users\ANDRE\Documents\GitHub\pixelmonserver\.\mods for mods
+[14:03:56] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12.2-2768-7.1.5.jar
+[14:03:56] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:03:56] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[14:03:56] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/C:/Users/ANDRE/Documents/GitHub/pixelmonserver/./mods/spongeforge-1.12.2-2768-7.1.5.jar Service=LaunchWrapper Env=SERVER
+[14:03:56] [main/WARN] [FML]: The coremod SpongeCoremod (org.spongepowered.mod.SpongeCoremod) is not signed!
+[14:03:56] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[14:03:56] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[DEFAULT]
+[14:03:56] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[PREINIT]
+[14:03:56] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[INIT]
+[14:03:56] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:03:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:03:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:03:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:03:57] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[14:03:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:03:57] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[14:03:57] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@5aae8eb5
+[14:03:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:03:58] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:03:58] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[14:03:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:03:58] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[14:04:03] [main/WARN] [mixin]: Static binding violation: PRIVATE overwrite method initializeConnectionToPlayer in mixins.common.core.json:server.MixinPlayerList cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[14:04:03] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[14:04:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[14:04:10] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2825 Initialized
+[14:04:10] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[14:04:11] [Server thread/INFO] [FML]: Replaced 1036 ore ingredients
+[14:04:11] [Server thread/INFO] [Sponge]: Found mcmod.info at jar:file:/C:/Users/ANDRE/Documents/GitHub/pixelmonserver/./mods/spongeforge-1.12.2-2768-7.1.5.jar!/mcmod.info
+[14:04:11] [Server thread/INFO] [Sponge]: Creating injector in stage 'PRODUCTION'
+[14:04:15] [Server thread/INFO] [FML]: Searching C:\Users\ANDRE\Documents\GitHub\pixelmonserver\.\mods for mods
+[14:04:16] [Server thread/INFO] [FML]: Forge Mod Loader has identified 17 mods to load
+[14:04:16] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[14:04:16] [Server thread/WARN] [FML]: Missing English translation for spongeapi: assets/spongeapi/lang/en_us.lang
+[14:04:16] [Server thread/WARN] [FML]: Missing English translation for spongeforge: assets/spongeforge/lang/en_us.lang
+[14:04:16] [Server thread/WARN] [FML]: Missing English translation for economylite: assets/economylite/lang/en_us.lang
+[14:04:16] [Server thread/WARN] [FML]: Missing English translation for pixelextras: assets/pixelextras/lang/en_us.lang
+[14:04:16] [Server thread/WARN] [FML]: Missing English translation for pixelgenocide: assets/pixelgenocide/lang/en_us.lang
+[14:04:16] [Server thread/WARN] [FML]: Missing English translation for pokedexrewards: assets/pokedexrewards/lang/en_us.lang
+[14:04:16] [Server thread/WARN] [FML]: Missing English translation for totaleconomy: assets/totaleconomy/lang/en_us.lang
+[14:04:16] [Server thread/WARN] [FML]: Missing English translation for wondertrade: assets/wondertrade/lang/en_us.lang
+[14:04:16] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, economylite, jei, journeymap, pixelextras, pixelgenocide, pixelmon, pokedexrewards, projecte, totaleconomy, wondertrade] at CLIENT
+[14:04:16] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, economylite, jei, journeymap, pixelextras, pixelgenocide, pixelmon, pokedexrewards, projecte, totaleconomy, wondertrade] at SERVER
+[14:04:16] [Server thread/WARN] [Sponge]: There's no certificate fingerprint available
+[14:04:17] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[14:04:17] [Server thread/INFO] [FML]: Found 1169 ObjectHolder annotations
+[14:04:17] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[14:04:17] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[14:04:17] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[14:04:17] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[14:04:18] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2836
+[14:04:18] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Starting version check at https://files.minecraftforge.net/maven/org/spongepowered/spongeforge/promotions_slim.json
+[14:04:18] [Server thread/INFO] [economylite]: EconomyLite 2.15.1 is initializing!
+[14:04:18] [Server thread/INFO] [economylite]: Using currency: Coin
+[14:04:18] [Server thread/INFO] [economylite]: The SQL module is disabled!
+[14:04:18] [Server thread/INFO] [economylite]: The Loan module is disabled!
+[14:04:18] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+[14:04:19] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Found status: OUTDATED Target: 7.1.2
+[14:04:19] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
+[14:04:19] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+[14:04:19] [Server thread/ERROR] [Sponge]: Could not pass FMLPreInitializationEvent to Plugin{id=totaleconomy, name=Total Economy, version=1.8.1, description=All in one economy plugin for Minecraft/Sponge, source=.\mods\TotalEconomy-1.8.1.jar}
 org.spongepowered.api.registry.RegistryModuleAlreadyRegisteredException: Already registered a registry module!
 	at org.spongepowered.common.registry.SpongeGameRegistry.registerModule(SpongeGameRegistry.java:229) ~[SpongeGameRegistry.class:1.12.2-2768-7.1.5]
 	at org.spongepowered.common.registry.SpongeGameRegistry.registerModule(SpongeGameRegistry.java:134) ~[SpongeGameRegistry.class:1.12.2-2768-7.1.5]
-	at io.github.flibio.economylite.EconomyLite.onServerInitialize(EconomyLite.java:156) ~[EconomyLite.class:?]
-	at org.spongepowered.common.event.listener.GamePreInitializationEventListener_EconomyLite_onServerInitialize1.handle(Unknown Source) ~[?:?]
+	at com.erigitic.main.TotalEconomy.preInit(TotalEconomy.java:193) ~[TotalEconomy.class:?]
+	at org.spongepowered.common.event.listener.GamePreInitializationEventListener_TotalEconomy_preInit9.handle(Unknown Source) ~[?:?]
 	at org.spongepowered.common.event.RegisteredListener.handle(RegisteredListener.java:95) ~[RegisteredListener.class:1.12.2-2768-7.1.5]
 	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:383) [SpongeModEventManager.class:1.12.2-2768-7.1.5]
 	at org.spongepowered.mod.event.SpongeModEventManager.extendedPost(SpongeModEventManager.java:443) [SpongeModEventManager.class:1.12.2-2768-7.1.5]
 	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:404) [SpongeModEventManager.class:1.12.2-2768-7.1.5]
 	at org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:248) [SpongeImpl.class:1.12.2-2768-7.1.5]
 	at org.spongepowered.mod.SpongeMod.onStateEvent(SpongeMod.java:283) [SpongeMod.class:1.12.2-2768-7.1.5]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_201]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_201]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_211]
 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
@@ -89,10 +89,10 @@ org.spongepowered.api.registry.RegistryModuleAlreadyRegisteredException: Already
 	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219) [LoadController.class:?]
 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197) [LoadController.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_201]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_201]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_211]
 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
@@ -107,670 +107,158 @@ org.spongepowered.api.registry.RegistryModuleAlreadyRegisteredException: Already
 	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333) [FMLCommonHandler.class:?]
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) [nz.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
-[18:39:59] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 7.0.5
-[18:39:59] [Forge Version Check/INFO] [forge.VersionCheck]: [projecte] Found status: UP_TO_DATE Target: null
-[18:39:59] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
-[18:40:00] [Server thread/INFO] [Pixelmon]: Checking for migrations..
-[18:40:00] [Server thread/INFO] [Pixelmon]: Loading Advancements
-[18:40:00] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: UP_TO_DATE Target: null
-[18:40:01] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Utilities:loadDefaultCooldowns:106]: fcb4bb01-21cc-3ac0-b815-9fd2a5285e32
-[18:40:01] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Utilities:loadDefaultCooldowns:106]: f9d371f4-5c26-3c9b-8f6f-fdbe7e3170f2
-[18:40:01] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Utilities:loadDefaultCooldowns:106]: 2120447d-bb7a-49f3-83a0-aad8d4f2b7c5
-[18:40:01] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Wondertrade:preInit:53]: [Wondertrade] Successfully loaded configuration File.
-[18:40:02] [Server thread/WARN] [Sponge]: Could not find fueltype owning class, assigning fallback id: projecte:fuel_block_fueltype
-[18:40:02] [Server thread/WARN] [Sponge]: Could not find tier owning class, assigning fallback id: projecte:matter_block_tier
-[18:40:02] [Server thread/INFO] [FML]: Applying holder lookups
-[18:40:02] [Server thread/INFO] [FML]: Holder lookups applied
-[18:40:02] [Server thread/INFO] [Pixelmon]: Loading TM/HMs.
-[18:40:02] [Server thread/INFO] [FML]: Applying holder lookups
-[18:40:02] [Server thread/INFO] [FML]: Holder lookups applied
-[18:40:02] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `sponge` for name `human`, expected `spongeforge`. This could be a intended override, but in most cases indicates a broken mod.
-[18:40:02] [Server thread/INFO] [FML]: Applying holder lookups
-[18:40:02] [Server thread/INFO] [FML]: Holder lookups applied
-[18:40:02] [Server thread/INFO] [FML]: Applying holder lookups
-[18:40:02] [Server thread/INFO] [FML]: Holder lookups applied
-[18:40:02] [Server thread/INFO] [FML]: Injecting itemstacks
-[18:40:02] [Server thread/INFO] [FML]: Itemstack injection complete
-[18:40:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[18:40:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[18:40:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[18:40:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[18:40:02] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
-[18:40:03] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:40:03] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[18:40:03] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:40:03] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:40:03] [Server thread/INFO] [FML]: Applying holder lookups
-[18:40:03] [Server thread/INFO] [FML]: Holder lookups applied
-[18:40:03] [Server thread/INFO] [PixelGenocide]: PixelGenocide by happyzleaf loaded! (http://www.happyzleaf.com/)
-[18:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ?f[?6PokeDex?f] ?ePokeDex Rewards - Loaded v0.8!
-[18:40:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ?f[?6PokeDex?f] ?eBy Xenoyia Updated by ?bFerris#0546?7(?eJirachi?7)?e with help from MageFX and XpanD!
-[18:40:03] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
-[18:40:03] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
-[18:40:03] [Server thread/INFO] [Pixelmon]: Registering shop items.
-[18:40:03] [Server thread/INFO] [Pixelmon]: Registering NPCs.
-[18:40:04] [Server thread/INFO] [Pixelmon]: Registered NPC trades.
-[18:40:04] [Server thread/INFO] [Pixelmon]: Registering structures.
-[18:40:06] [Server thread/INFO] [Pixelmon]: Registering drops.
-[18:40:06] [Server thread/INFO] [Pixelmon]: Registering Pokémon drops.
-[18:40:07] [Server thread/INFO] [Pixelmon]: Registering battle rules.
-[18:40:13] [Server thread/INFO] [FML]: Injecting itemstacks
-[18:40:13] [Server thread/INFO] [FML]: Itemstack injection complete
-[18:40:13] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
-[18:40:14] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 17 mods
-[18:40:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[18:40:14] [Server thread/INFO] [Sponge]: Checking for worlds that need to be migrated...
-[18:40:14] [Server thread/INFO] [Sponge]: No worlds were found in need of migration.
-[18:40:14] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[18:40:15] [Server thread/INFO] [FML]: Applying holder lookups
-[18:40:15] [Server thread/INFO] [FML]: Holder lookups applied
-[18:40:16] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 722 advancements
-[18:40:16] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 112 advancement trees
-[18:40:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0 (world)
-[18:40:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 15%
-[18:40:17] [Server thread/INFO] [Sponge]: Loading world [world] (overworld)
-[18:40:18] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 722 advancements
-[18:40:18] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 112 advancement trees
-[18:40:18] [Server thread/INFO] [Sponge]: Loading world [DIM-1] (the_nether)
-[18:40:18] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 722 advancements
-[18:40:18] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 112 advancement trees
-[18:40:18] [Server thread/INFO] [Sponge]: Loading world [DIM1] (the_end)
-[18:40:19] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 722 advancements
-[18:40:19] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 112 advancement trees
-[18:40:19] [Server thread/INFO] [Sponge]: Loading world [ultra] (ultra_space)
-[18:40:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (4.397s)! For help, type "help" or "?"
-[18:40:19] [Server thread/INFO] [projecte]: Starting server-side EMC mapping.
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'obisidan.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'glass.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'glass.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'ender'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'iron.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'gold.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'copper.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'tin.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'silver.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'lead.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'nickel.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'aluminum.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'ardite.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'cobalt.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'platinum.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'obsidian.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'electrum.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'invar.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'signalum.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'lumium.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'enderium.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'mithril.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'bronze.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'aluminumbrass.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'manyullyn.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'alumite.molten'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'emerald.liquid'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'redstone'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'glowstone'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'cryotheum'
-[18:40:19] [Server thread/WARN] [projecte]: Can not get Fluid 'pryotheum'
-[18:40:19] [Server thread/WARN] [projecte]: EMC Exploit: ingredients (0 + 9*minecraft:iron_nugget:0 => 1*minecraft:iron_ingot:0) cost 252 but output value is 256
-[18:40:19] [Server thread/WARN] [projecte]: EMC Exploit: "0 + 9*minecraft:gold_nugget:0 => 1*minecraft:gold_ingot:0" ingredient cost: 2043 value of result: 2048 setValueFromConversion: 0 + 8*OD: ingotIron => 1*minecraft:gold_ingot:0
-[18:40:19] [Server thread/WARN] [projecte]: EMC Exploit: ingredients (0 + 1*minecraft:cobblestone:0 + 1*minecraft:stone:3 => 2*minecraft:stone:5) cost 17 but output value is 16
-[18:40:19] [Server thread/INFO] [projecte]: Registered 839 EMC values. (took 300 ms)
-[18:40:19] [Server thread/INFO] [totaleconomy]: Total Economy Started
-[18:40:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:40:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:40:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:40:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:41:05] [Netty Server IO #2/INFO] [FML]: Client protocol version 2
-[18:41:05] [Netty Server IO #2/INFO] [FML]: Client attempting to join with 17 mods : minecraft@1.12.2,sponge@1.12.2-7.1.5,FML@8.0.99.99,spongeapi@7.1.0-366290f8,pixelgenocide@1.0.4,totaleconomy@1.8.1,pokedexrewards@0.8,pixelextras@2.4.2,jei@4.15.0.268,economylite@2.15.1,wondertrade@4.6.0,spongeforge@1.12.2-2768-7.1.5,projecte@1.12.2-PE1.4.0,forge@14.23.5.2768,mcp@9.42,journeymap@1.12.2-5.5.3,pixelmon@7.0.5
-[18:41:05] [Netty Server IO #2/INFO] [journeymap]: CLIENT
-[18:41:06] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[18:41:06] [Server thread/INFO] [journeymap]: Mr.Jack joining dimension 0
-[18:41:06] [Server thread/ERROR] [FML]: FMLIndexedMessageCodec exception caught
-io.netty.handler.codec.EncoderException: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:106) ~[MessageToMessageEncoder.class:?]
-	at io.netty.handler.codec.MessageToMessageCodec.write(MessageToMessageCodec.java:116) ~[MessageToMessageCodec.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:801) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831) ~[AbstractChannelHandlerContext.class:?]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1032) ~[DefaultChannelPipeline.class:?]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:296) ~[AbstractChannel.class:?]
-	at net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper.sendTo(SimpleNetworkWrapper.java:250) [SimpleNetworkWrapper.class:?]
-	at journeymap.common.network.PacketHandler.sendDimensionPacketToPlayer(PacketHandler.java:57) [PacketHandler.class:1.12.2-5.5.3]
-	at journeymap.server.events.ForgeEvents.on(ForgeEvents.java:73) [ForgeEvents.class:1.12.2-5.5.3]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_70_ForgeEvents_on_EntityJoinWorldEvent.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:747) [EventBus.class:?]
-	at org.spongepowered.common.SpongeImplHooks.firePlayerJoinSpawnEvent(SpongeImplHooks.java:1261) [SpongeImplHooks.class:1.12.2-2768-7.1.5]
-	at org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:877) [PhaseTracker.class:1.12.2-2768-7.1.5]
-	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:2730) [oo.class:?]
-	at net.minecraft.server.management.PlayerList.handler$playerLoggedIn2$zjn000(PlayerList.java:2055) [pl.class:?]
-	at net.minecraft.server.management.PlayerList.func_72377_c(PlayerList.java:368) [pl.class:?]
-	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1592) [pl.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255) [NetworkDispatcher.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72) [NetworkDispatcher.class:?]
-	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:205) [NetworkDispatcher$1.class:?]
-	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
-	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
-Caused by: java.lang.RuntimeException: Undefined discriminator for message type journeymap.common.network.DimensionPermissionPacket in channel jm_dim_permission
-	at net.minecraftforge.fml.common.network.FMLIndexedMessageToMessageCodec.encode(FMLIndexedMessageToMessageCodec.java:76) ~[FMLIndexedMessageToMessageCodec.class:?]
-	at io.netty.handler.codec.MessageToMessageCodec$1.encode(MessageToMessageCodec.java:67) ~[MessageToMessageCodec$1.class:?]
-	at io.netty.handler.codec.MessageToMessageEncoder.write(MessageToMessageEncoder.java:88) ~[MessageToMessageEncoder.class:?]
-	... 30 more
-[18:41:06] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Mr.Jack[/25.90.59.187:61667] logged in with entity id 8 in world(0) at (-836.6999999880791, 71.0, -260.6960706936395)
-[18:41:06] [Server thread/INFO] [journeymap]: Sending log in packet.
-[18:41:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack joined the game
-[18:41:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:41:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:41:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:41:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:41:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:41:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:41:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:41:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:41:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:41:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:41:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:42:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:42:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:42:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:42:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:42:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:42:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:42:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:42:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:42:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:42:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:42:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:42:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:43:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:43:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:43:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:43:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:43:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:43:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:43:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:43:39] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2426ms behind, skipping 48 tick(s)
-[18:43:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:43:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:43:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:43:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:44:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:44:13] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 8512ms behind, skipping 170 tick(s)
-[18:44:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:44:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:44:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:44:36] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 9856ms behind, skipping 197 tick(s)
-[18:44:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:44:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:44:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:44:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:45:01] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2735ms behind, skipping 54 tick(s)
-[18:45:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:45:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:45:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:45:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:45:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:45:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:45:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:45:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:45:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:45:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:46:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:46:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:46:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:46:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:46:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:46:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:46:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:46:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:46:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:46:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:46:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:47:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:47:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:47:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:47:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:47:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:47:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:47:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:47:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:47:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:47:59] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 5926ms behind, skipping 118 tick(s)
-[18:48:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:48:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:48:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:48:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:48:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:48:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:48:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:48:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:48:57] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2822ms behind, skipping 56 tick(s)
-[18:48:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:49:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:49:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:49:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:49:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:49:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:49:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:49:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:49:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:49:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:49:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:50:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:50:15] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2275ms behind, skipping 45 tick(s)
-[18:50:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:50:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:50:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:50:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:50:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:50:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:50:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:51:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:51:04] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2174ms behind, skipping 43 tick(s)
-[18:51:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:51:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:51:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:51:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:51:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:51:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:51:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:51:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:52:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:52:20] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 17288ms behind, skipping 345 tick(s)
-[18:52:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:52:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:52:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:52:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:52:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:52:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:53:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:53:06] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 15268ms behind, skipping 305 tick(s)
-[18:53:10] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3746ms behind, skipping 74 tick(s)
-[18:53:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:53:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:53:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:53:31] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 4067ms behind, skipping 81 tick(s)
-[18:53:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:53:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:53:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:53:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:53:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:53:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:54:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:54:08] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2681ms behind, skipping 53 tick(s)
-[18:54:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:54:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:54:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:54:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:54:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:54:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:54:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:54:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:54:53] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2294ms behind, skipping 45 tick(s)
-[18:54:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:54:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:55:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:55:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:55:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:55:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:55:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:55:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:55:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:55:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:55:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:55:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:55:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:56:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:56:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:56:09] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2390ms behind, skipping 47 tick(s)
-[18:56:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:56:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:56:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:56:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:56:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:56:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:56:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:57:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:57:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:57:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:57:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:57:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:57:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:57:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:57:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:57:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:57:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:58:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:58:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:58:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:58:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:58:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:58:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:58:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:58:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:58:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:58:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:58:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:59:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:59:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:59:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:59:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:59:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:59:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:59:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:59:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[18:59:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:00:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:00:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:00:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:00:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:00:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:00:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:00:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:00:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:00:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:00:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:00:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:00:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:01:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:01:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:01:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:01:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:01:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:01:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:01:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:01:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:01:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:01:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:01:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:02:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:02:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:02:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:02:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:02:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:02:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:02:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:02:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:02:58] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2557ms behind, skipping 51 tick(s)
-[19:03:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:03:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:03:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:03:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Mr.Jack successfully healed Mr.Jack's Pokémon!]
-[19:03:18] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2811ms behind, skipping 56 tick(s)
-[19:03:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:03:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:03:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:03:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:03:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:03:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:03:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:04:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:04:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:04:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:04:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:04:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:04:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:04:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:04:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:04:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:04:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:04:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:04:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:05:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:05:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:05:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:05:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:05:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:05:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:05:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:05:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:05:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:05:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:05:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:05:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:06:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:06:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:06:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:06:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:06:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:06:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:06:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:06:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:06:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:06:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:06:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:06:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:07:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:07:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:07:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:07:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:07:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:07:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:07:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:07:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:07:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:07:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:07:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:07:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:08:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:08:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:08:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:08:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:08:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:08:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:08:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:08:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:08:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:08:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:08:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:08:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:09:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:09:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:09:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:09:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:09:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:09:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:09:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:09:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:09:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:09:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:09:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:09:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:10:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:10:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:10:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:10:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:10:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:10:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:10:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:10:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:10:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:10:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:10:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:10:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:11:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:11:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:11:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:11:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:11:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:11:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:11:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:11:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:11:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:11:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:11:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Suicune has spawned in a Stone Beach biome!
-[19:11:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Suicune at: world x:-1243, y:79, z:324
-[19:11:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:12:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:12:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:12:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:12:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:12:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:12:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:12:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:12:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:12:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:12:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:12:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:12:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:13:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:13:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:13:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:13:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:13:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:13:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack has made the advancement [Water Beast]
-[19:13:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:13:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:13:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:13:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:13:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:13:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:13:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:14:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:14:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:14:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:14:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:14:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:14:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:14:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:14:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:14:48] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 6546ms behind, skipping 130 tick(s)
-[19:14:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:14:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:14:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:15:04] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3739ms behind, skipping 74 tick(s)
-[19:15:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:15:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:15:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:15:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:15:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:15:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:15:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:15:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:15:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:15:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:15:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:16:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:16:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:16:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:16:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:16:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:16:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:16:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:16:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:16:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:16:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:16:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:16:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:17:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:17:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:17:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:17:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:17:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:17:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:17:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:17:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:17:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:17:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:17:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:17:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:18:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:18:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:18:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:18:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:18:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:18:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:18:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:18:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:18:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:18:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:18:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:18:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:19:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:19:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:19:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:19:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:19:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:19:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Mr.Jack: Mr.Jack successfully healed Mr.Jack's Pokémon!]
-[19:19:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:19:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:19:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:19:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:19:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:19:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:19:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:20:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:20:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:20:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:20:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:20:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:20:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:20:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:20:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:20:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:20:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:20:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:20:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:21:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:21:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:21:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:21:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:21:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:21:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:21:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:21:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:21:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:21:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:21:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:21:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:22:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:22:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:22:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:22:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:22:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:22:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:22:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:22:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:22:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:22:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:22:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:23:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:23:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:23:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:23:18] [Server thread/WARN] [net.minecraft.entity.EntityTrackerEntry]: Fetching addPacket for removed entity
-[19:23:18] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 6921ms behind, skipping 138 tick(s)
-[19:23:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:23:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:23:29] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2091ms behind, skipping 41 tick(s)
-[19:23:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:23:44] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Mr.Jack lost connection: Disconnected
-[19:23:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Mr.Jack left the game
-[19:23:50] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 6837ms behind, skipping 136 tick(s)
-[19:23:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:23:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:24:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:24:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:24:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
-[19:24:34] [Server thread/INFO] [totaleconomy]: Total Economy Stopping
-[19:24:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[19:24:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[19:24:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[19:24:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
-[19:24:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM-1'/the_nether
-[19:24:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM1'/the_end
-[19:24:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ultra'/ultra_space
-[19:24:42] [Server thread/INFO] [Sponge]: Unloading world [world] (DIM0)
-[19:24:42] [Server thread/INFO] [Sponge]: Unloading world [DIM-1] (DIM-1)
-[19:24:42] [Server thread/INFO] [Sponge]: Unloading world [DIM1] (DIM1)
-[19:24:42] [Server thread/INFO] [Sponge]: Unloading world [ultra] (DIM72)
-[19:24:43] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown initiated...
-[19:24:44] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown completed.
-[19:24:45] [Server thread/INFO] [totaleconomy]: Total Economy Stopped
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_211]
+[14:04:19] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 7.0.5
+[14:04:19] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: UP_TO_DATE Target: null
+[14:04:19] [Forge Version Check/INFO] [forge.VersionCheck]: [projecte] Starting version check at https://raw.githubusercontent.com/sinkillerj/ProjectE/mc1.12.x/update.json
+[14:04:19] [Forge Version Check/INFO] [forge.VersionCheck]: [projecte] Found status: UP_TO_DATE Target: null
+[14:04:20] [Server thread/INFO] [Pixelmon]: Checking for migrations..
+[14:04:20] [Server thread/INFO] [Pixelmon]: Loading Advancements
+[14:04:21] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Utilities:loadDefaultCooldowns:106]: fcb4bb01-21cc-3ac0-b815-9fd2a5285e32
+[14:04:21] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Utilities:loadDefaultCooldowns:106]: f9d371f4-5c26-3c9b-8f6f-fdbe7e3170f2
+[14:04:21] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Utilities:loadDefaultCooldowns:106]: 2120447d-bb7a-49f3-83a0-aad8d4f2b7c5
+[14:04:21] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Wondertrade:preInit:53]: [Wondertrade] Successfully loaded configuration File.
+[14:04:22] [Server thread/WARN] [Sponge]: Could not find fueltype owning class, assigning fallback id: projecte:fuel_block_fueltype
+[14:04:22] [Server thread/WARN] [Sponge]: Could not find tier owning class, assigning fallback id: projecte:matter_block_tier
+[14:04:22] [Server thread/INFO] [FML]: Applying holder lookups
+[14:04:22] [Server thread/INFO] [FML]: Holder lookups applied
+[14:04:22] [Server thread/INFO] [Pixelmon]: Loading TM/HMs.
+[14:04:22] [Server thread/INFO] [FML]: Applying holder lookups
+[14:04:22] [Server thread/INFO] [FML]: Holder lookups applied
+[14:04:22] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `sponge` for name `human`, expected `spongeforge`. This could be a intended override, but in most cases indicates a broken mod.
+[14:04:22] [Server thread/INFO] [FML]: Applying holder lookups
+[14:04:22] [Server thread/INFO] [FML]: Holder lookups applied
+[14:04:22] [Server thread/INFO] [FML]: Applying holder lookups
+[14:04:22] [Server thread/INFO] [FML]: Holder lookups applied
+[14:04:22] [Server thread/INFO] [FML]: Injecting itemstacks
+[14:04:22] [Server thread/INFO] [FML]: Itemstack injection complete
+[14:04:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[14:04:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[14:04:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[14:04:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on 192.168.1.10:25565
+[14:04:22] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[14:04:23] [Server thread/INFO] [FML]: Applying holder lookups
+[14:04:23] [Server thread/INFO] [FML]: Holder lookups applied
+[14:04:23] [Server thread/INFO] [PixelGenocide]: PixelGenocide by happyzleaf loaded! (http://www.happyzleaf.com/)
+[14:04:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ?f[?6PokeDex?f] ?ePokeDex Rewards - Loaded v0.8!
+[14:04:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ?f[?6PokeDex?f] ?eBy Xenoyia Updated by ?bFerris#0546?7(?eJirachi?7)?e with help from MageFX and XpanD!
+[14:04:23] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[14:04:23] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[14:04:23] [Server thread/INFO] [Pixelmon]: Registering shop items.
+[14:04:23] [Server thread/INFO] [Pixelmon]: Registering NPCs.
+[14:04:23] [Server thread/INFO] [Pixelmon]: Registered NPC trades.
+[14:04:23] [Server thread/INFO] [Pixelmon]: Registering structures.
+[14:04:26] [Server thread/INFO] [Pixelmon]: Registering drops.
+[14:04:26] [Server thread/INFO] [Pixelmon]: Registering Pokémon drops.
+[14:04:26] [Server thread/INFO] [Pixelmon]: Registering battle rules.
+[14:04:33] [Server thread/INFO] [FML]: Injecting itemstacks
+[14:04:33] [Server thread/INFO] [FML]: Itemstack injection complete
+[14:04:33] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
+[14:04:34] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 17 mods
+[14:04:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[14:04:34] [Server thread/INFO] [Sponge]: Checking for worlds that need to be migrated...
+[14:04:34] [Server thread/INFO] [Sponge]: No worlds were found in need of migration.
+[14:04:35] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[14:04:35] [Server thread/INFO] [FML]: Applying holder lookups
+[14:04:35] [Server thread/INFO] [FML]: Holder lookups applied
+[14:04:36] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 722 advancements
+[14:04:36] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 112 advancement trees
+[14:04:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0 (world)
+[14:04:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 17%
+[14:04:38] [Server thread/INFO] [Sponge]: Loading world [world] (overworld)
+[14:04:38] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 722 advancements
+[14:04:38] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 112 advancement trees
+[14:04:38] [Server thread/INFO] [Sponge]: Loading world [DIM-1] (the_nether)
+[14:04:38] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 722 advancements
+[14:04:38] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 112 advancement trees
+[14:04:38] [Server thread/INFO] [Sponge]: Loading world [DIM1] (the_end)
+[14:04:39] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 722 advancements
+[14:04:39] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 112 advancement trees
+[14:04:39] [Server thread/INFO] [Sponge]: Loading world [ultra] (ultra_space)
+[14:04:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (4,448s)! For help, type "help" or "?"
+[14:04:39] [Server thread/INFO] [projecte]: Starting server-side EMC mapping.
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'obisidan.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'glass.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'glass.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'ender'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'iron.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'gold.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'copper.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'tin.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'silver.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'lead.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'nickel.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'aluminum.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'ardite.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'cobalt.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'platinum.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'obsidian.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'electrum.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'invar.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'signalum.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'lumium.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'enderium.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'mithril.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'bronze.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'aluminumbrass.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'manyullyn.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'alumite.molten'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'emerald.liquid'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'redstone'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'glowstone'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'cryotheum'
+[14:04:39] [Server thread/WARN] [projecte]: Can not get Fluid 'pryotheum'
+[14:04:39] [Server thread/WARN] [projecte]: EMC Exploit: ingredients (0 + 9*minecraft:iron_nugget:0 => 1*minecraft:iron_ingot:0) cost 252 but output value is 256
+[14:04:39] [Server thread/WARN] [projecte]: EMC Exploit: "0 + 9*minecraft:gold_nugget:0 => 1*minecraft:gold_ingot:0" ingredient cost: 2043 value of result: 2048 setValueFromConversion: 0 + 8*OD: ingotIron => 1*minecraft:gold_ingot:0
+[14:04:39] [Server thread/WARN] [projecte]: EMC Exploit: ingredients (0 + 1*minecraft:cobblestone:0 + 1*minecraft:stone:3 => 2*minecraft:stone:5) cost 17 but output value is 16
+[14:04:39] [Server thread/INFO] [projecte]: Registered 839 EMC values. (took 355 ms)
+[14:04:39] [Server thread/INFO] [totaleconomy]: Total Economy Started
+[14:04:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:04:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:05:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:05:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:05:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:05:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:05:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:05:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:06:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:06:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:06:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:06:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:06:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:06:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:07:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:07:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:07:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:07:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:07:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:07:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:08:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:08:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:08:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:08:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:08:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:08:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:09:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:09:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:09:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:09:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:09:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:09:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:10:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:10:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:10:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:10:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:10:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:10:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:11:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:11:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:11:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:11:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:11:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:11:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:12:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:12:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:12:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:12:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[14:12:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
